@@ -1,0 +1,195 @@
+body {
+    background: white;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .max-width {
+max-width: 1340px;
+padding:0;
+margin: 0;
+  }
+  section {
+    padding: 20px 0;
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    transition: all 0.5s ease;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar.sticky {
+    padding: 30px 0;
+    background:black;
+  }
+  .navbar .logo a {
+    position: relative;
+    left:80px ;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    transition: color 0.5s ease;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .menu li {
+    position: relative;
+    right: 5px;
+    list-style: none;
+    display: inline-block;
+  }
+  .navbar .menu .date li a {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 25px;
+    padding-left: 20px;
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+  }
+  .navbar .menu .date li a i{
+    color: black;
+  position: relative;
+  right:38px;
+  top: 3px;
+  font-size: 18px;
+  }
+  .navbar .menu .oth li a {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:1000px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+  }
+  .navbar .menu .oth li a i{
+    color: black;
+    display: flex;
+    font-size: 15px;
+    margin: 3px;
+    font-weight: 800;
+    justify-content: space-between;
+  }
+
+  .navbar .menu li a:hover,
+  .navbar .logo a:hover {
+    color:#029dd1;
+  }
+  .menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+  }
+  .home .home-content .iconss{
+position: relative;
+top: 30px;
+margin-left: 20px;
+  }
+  .home .home-content .iconss i{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .home .home-content .hero{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 80px;
+  }
+  .home .home-content .hero p{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  form{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+  }
+  .input-row{
+    display:block;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+  }
+  .input-row .input-group{
+    flex-basis: 45%;
+  }
+  input{
+    width: 35%;
+    font-size: 15px;
+    outline:none;
+    text-align:left;
+    text-indent:20px;
+    border-radius: 9px;
+    border: 2px solid #1B2B4B;
+    background:#FAFBFC;
+    margin-right:25px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+  }
+  input::placeholder{
+    color:#000000;
+    font-family: arial;
+    position: relative;
+    top: 12px;
+    font-size: 12px;
+  }
+  .gue{
+    align-items: center;
+    text-align: right;
+    position: relative;
+    top:120px;
+    right: 400px;
+    color: #029dd1;
+  }
+  .gue a{
+    color: #029dd1;
+    font-size: 14px;
+  }
+  .gue a:hover{
+  text-decoration: underline blue 2px;
+  }
+  .alt a{
+    display: inline-block;
+    text-align: center;
+    background:#029dd1;
+    color: #fff;
+    position: relative;
+    top:280px;
+    left: 370px;
+    width: 35%;
+    z-index:100;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 15px;
+    height: 38px;
+    border: 1.5px solid #029dd1;
+    transition: all 0.3s ease;
+    font-family: Arial;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .img{
+    position: relative;
+    text-align: center;
+    top: 250px;
+  }
