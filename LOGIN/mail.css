@@ -71,8 +71,8 @@ margin: 0;
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 20px;
     left:1000px;
+    bottom: 20px;
     font-weight: 700;
     transition: color 0.3s ease;
     font-family: 'Rubik', sans-serif;
@@ -96,112 +96,69 @@ margin: 0;
     cursor: pointer;
     display: none;
   }
-  .home .carousel .card .logo a{
+  .home .home-content .logo img{
     position: relative;
-    right: 390px;
-    bottom: 35px;
-    font-size: 25px;
-    color: black;
-    font-family: arial;
-    font-weight: 600;
+    top: 50px;
+    left: 50px;
   }
-  .home .carousel .card .logo a span{
-    position: relative;
-    left: 770px;
-    bottom: 10px;
-    color: #029dd1;
+  .home .home-content .logo a{
     font-size: 18px;
-    font-weight: 200;
-  }
-  .home .carousel .card .logo img{
-    width: 50px;
     position: relative;
-    right: 450px;
+    top: 30px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    left: 55px;
   }
-  .home .home-content .hero img{
-    width: 500px;
-    margin: 50px, auto;
-    position: relative;
-    left: 40px;
-  }
-  .home .carousel .card .under{
-    position: relative;
-    top: 20px;
-  }
-  .home .carousel .card .under h2{
-text-align: center;
-font-size: 45px;
-width: 100%;
-color: black;
-font-family: arial;
-  }
-  .home .carousel .card .under p{
-    font-size: 17px;
-    white-space: wrap;
-    position: relative;
-    top: 15px;
-    width: 100%;
-    font-family: arial;
-  }
-  .home .carousel .card .hero img{
-    height: 450px;
-    width: 450px;
-    object-fit: cover;
-  }
-  .home .carousel .card{
-    background: white;
-    padding: 50px 85px;
-    text-align: center;
-  }
-  
-  .home .carousel .card .box{
+.body .body-content{
     display: flex;
-    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.body .body-content .body {
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding-bottom: 100px;
+    width: 50%;
+    height:100%;
+    position: relative;
     align-items: center;
     justify-content: center;
-  }
-  .owl-dots{
     text-align: left;
+}
+.body .body-content .body text{
+    width: 700px;
+    font-size: 18px;
     position: relative;
-    bottom: 35px;
-    width: 200px;
-    margin-left: 20px;
-  }
-  .owl-dot{
-background:#029dd1!important;
-height: 13px;
-width: 13px;
-margin: 0 5px;
-border-radius:50%;
-border: 2px solid #029dd1!important;
-transition: all 0.3s ease;
-  }
-  .owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-    height: 8px;
-  }
-  .owl-dot.active:hover{
-    background: #029dd1;
-  }
-  .home .next-btn a{
+    top: 20px;
+    left: 30px;
+}
+.body .body-content .body text1{
+    width: 700%;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    font-size: 17px;
+}
+.body .body-content .body a{
     display: inline-block;
     text-align: center;
     background:#029dd1;
     color: #fff;
     position: relative;
-    left: 50%;
-    top:70px;
+    left: 30px;
+    top: 40px;
     z-index:100;
-    font-size: 12px;
+    font-size: 14px;
     padding: 12px 20px;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-top: 15px;
-    height: 35px;
+    height: 42px;
     border: 1.5px solid #029dd1;
     transition: all 0.3s ease;
     font-family: Arial;
-  }
-  .next-btn.active{
-    background-color: #029dd1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
