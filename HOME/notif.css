@@ -1,6 +1,5 @@
 body {
-    background: #ffffff;
-
+    background: white;
   }
   * {
     margin: 0;
@@ -9,7 +8,7 @@ body {
     text-decoration: none;
   }
   .max-width {
-max-width:100%;
+max-width: 1340px;
 padding:0;
 margin: 0;
   }
@@ -32,7 +31,7 @@ margin: 0;
   }
   .navbar .logo a {
     position: relative;
-    left:60px ;
+    left:80px ;
     font-size: 30px;
     font-weight: 600;
     color: black;
@@ -54,8 +53,6 @@ margin: 0;
   }
   .navbar .menu .date li a {
     color: black;
-    position: relative;
-  left:268px;
     font-size: 15px;
     font-weight: 600;
     margin-right: 25px;
@@ -74,7 +71,7 @@ margin: 0;
     display: flex;
     flex-direction: column;
     position: relative;
-    left:620px;
+    left:1000px;
     bottom: 20px;
     font-weight: 700;
     transition: color 0.3s ease;
@@ -99,44 +96,37 @@ margin: 0;
     cursor: pointer;
     display: none;
   }
-  .home .home-content{
-    width: 900px;
-  }
-  .home .home-content .logo a{
+  .home .home-content .ezi{
     position: relative;
-    font-size: 20px;
-    color: black;
-    top: 20px;
-    left: 280px;
-    font-family: arial;
-    font-weight: 600;
-  }
-  .home .home-content .logo a span{
-    position: relative;
-    color: black;
-    left: 100px;
-    font-size: 18px;
-    font-weight: 200;
-    margin: 4px;
-  }
-  .home .home-content .logo img{
-    width: 50px;
-    position: relative;
-    top: 30px;
-    left:280px;
-  }
-  .home .home-content p{
-    font-size: 14px;
-    letter-spacing: 1px;
-    position: relative;
-    top: 50px;
-    left:30%;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top:50px;
+    font-size: 16px;
     font-weight: 700;
   }
-  .home .home-content .fitz{
-text-align: center;
+  .home .home-content .iconss{
     position: relative;
-    top: 100px;
-    left: 50px;
+    top: 30px;
+    color: black;
   }
+  .home .home-content .iconss a{
+    position: relative;
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+      }
+      .home .home-content .iconss  i{
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .middle{
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        top: 190px;
+      }
+      .middle text{
+        top: 70px;
+        font-size: 16px;
+        font-family: Arial;
+      }
+      
