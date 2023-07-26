@@ -205,3 +205,129 @@ transition: all 0.3s ease;
   .next-btn.active{
     background-color: #029dd1;
   }
+  @media (max-width: 580px) {
+    .navbar .menu .oth li a {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      bottom: 20px;
+      left: 300px;
+      font-weight: 700;
+      transition: color 0.3s ease;
+      font-family: 'Rubik', sans-serif;
+    }
+    .navbar .menu .oth li a i{
+      color: black;
+      display: flex;
+      font-size: 15px;
+      margin: 3px;
+      font-weight: 800;
+      justify-content: space-between;
+    }
+    .home .carousel .card .logo a{
+      position: relative;
+      right: 58px;
+      bottom: 10px;
+      font-size: 25px;
+      color: black;
+      font-family: arial;
+      font-weight: 600;
+    }
+    .home .carousel .card .logo a span{
+      position: relative;
+      left: 120px;
+      bottom: 5px;
+      color: #029dd1;
+      font-size: 20px;
+      font-weight: 200;
+    }
+    .home .carousel .card .logo img{
+      width: 45px;
+      position: relative;
+      right: 110px;
+      top: 20px;
+    }
+    
+    .home .carousel .card .under{
+      position: relative;
+      top: 50px;
+    }
+    .home .carousel .card .under h2{
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  color: black;
+  font-family: arial;
+    }
+    .home .carousel .card .under p{
+      font-size: 16px;
+      white-space: wrap;
+      position: relative;
+      top: 15px;
+      width: 100%;
+      font-family: arial;
+    }
+    .home .carousel .card .hero img{
+      height: 400px;
+      width: 400px;
+      position: relative;
+      object-fit: cover;
+    }
+    .home .carousel .card{
+      background: white;
+      padding: 50px 85px;
+      text-align: center;
+    }
+    
+    .home .carousel .card .box{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+    }
+    .owl-dots{
+      text-align: left;
+      position: relative;
+      bottom: 15px;
+      width: 200px;
+      margin-left: 20px;
+    }
+    .owl-dot{
+  background:#029dd1!important;
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  border-radius:50%;
+  border: 2px solid #029dd1!important;
+  transition: all 0.3s ease;
+    }
+    .owl-dot.active{
+      width: 35px;
+      border-radius: 14px;
+      height: 8px;
+    }
+    .owl-dot.active:hover{
+      background: #029dd1;
+    }
+    .home .next-btn a{
+      display: inline-block;
+      text-align: center;
+      background:#029dd1;
+      color: #fff;
+      position: relative;
+      left: 50%;
+      top:70px;
+      z-index:100;
+      font-size: 12px;
+      padding: 12px 20px;
+      border-radius: 4px;
+      margin-top: 15px;
+      height: 35px;
+      border: 1.5px solid #029dd1;
+      transition: all 0.3s ease;
+      font-family: Arial;
+    }
+    .next-btn.active{
+      background-color: #029dd1;
+    }
+  }

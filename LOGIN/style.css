@@ -186,8 +186,123 @@ margin: 0;
     text-align:left;
     justify-content: center;
     display:block;
-    width: 1000px;
+    width: 100%;
     height: auto;
     margin:50px auto;
     font-family: 'Rubik', sans-serif;
+  }
+  @media (max-width: 580px) {
+    .navbar .menu .oth li a {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      bottom: 20px;
+      left: 300px;
+      font-weight: 700;
+      transition: color 0.3s ease;
+      font-family: 'Rubik', sans-serif;
+    }
+    .navbar .menu .oth li a i{
+      color: black;
+      display: flex;
+      font-size: 15px;
+      margin: 3px;
+      font-weight: 800;
+      justify-content: space-between;
+    }
+    .home {
+      background-image:url('Rectangle\ 224.png');
+      background-size: cover;
+      height:50vh;
+      /*position: relative;*/
+      width: 100%;
+      display: flex;
+      /*justify-content: center;*/
+      /*align-items: center;*/
+      background-attachment: fixed;
+      min-height: 500px;
+      font-family: 'Rubik', sans-serif;
+    }
+  .frame img{
+      background-size: cover;
+      height:50vh;
+      position: relative;
+      bottom: 60px;
+      /*position: relative;*/
+      width:100%;
+      object-fit: cover;
+      display: flex;
+      /*justify-content: center;*/
+      /*align-items: center;*/
+      background-attachment: fixed;
+      min-height: 500px;
+    }
+    .middle{
+      width: 100%;
+     position: relative;
+    }
+   .middle img{
+      width: 40%;
+      position: relative;
+      left: 5px;
+      bottom: 150px;
+    }
+    .middle h3{
+      font-size: 28px;
+      position: relative;
+      text-align: center;
+      bottom:145px;
+    }
+    .middle h5{
+      text-align: center;
+      width: 100%;
+      left: 10px;
+      font-size: 18px;
+      font-weight: 100;
+      position: relative;
+      bottom:90px;
+    }
+    .middle a{
+      display: inline-block;
+      text-align: center;
+      background:#029dd1;
+      color: #fff;
+      position: relative;
+      top:0%;
+      width: 85%;
+      z-index:100;
+      font-size: 14px;
+      padding: 12px 20px;
+      border-radius: 4px;
+      margin-top: 15px;
+      height: 38px;
+      border: 1.5px solid #029dd1;
+      transition: all 0.3s ease;
+      font-family: Arial;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .alt{
+      position: relative;
+      top:40px;
+      color: #029dd1;
+      font-size: 12px;
+    }
+    .alt a{
+      color: #029dd1;
+    }
+    .alt a:hover{
+    text-decoration: underline blue 2px;
+    }
+    .home .max-width {
+      margin: auto;
+    }
+    .home .home-content {
+      text-align:left;
+      justify-content: center;
+      display:block;
+      width: 80%;
+      height: auto;
+      margin:50px auto;
+      font-family: 'Rubik', sans-serif;
+    }
   }

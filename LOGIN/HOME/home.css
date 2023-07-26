@@ -140,3 +140,23 @@ text-align: center;
     top: 100px;
     left: 50px;
   }
+  @media (max-width: 580px) {
+    .navbar .menu .oth li a {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      bottom: 20px;
+      left: 300px;
+      font-weight: 700;
+      transition: color 0.3s ease;
+      font-family: 'Rubik', sans-serif;
+    }
+    .navbar .menu .oth li a i{
+      color: black;
+      display: flex;
+      font-size: 15px;
+      margin: 3px;
+      font-weight: 800;
+      justify-content: space-between;
+    }
+  }

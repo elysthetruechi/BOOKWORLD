@@ -131,6 +131,7 @@ margin: 0;
       }
       .shake .shake-content{
         display:block;
+        left: 450px;
         flex-wrap: wrap;
         width: 280px;
         top: 30px;
@@ -140,8 +141,8 @@ margin: 0;
         display:block;
         position: relative;
         border: none;
-        border-bottom: 2px solid red;
-        height: 150px;
+        border-bottom: 1px solid rgb(10, 4, 4);
+        height: 120px;
       }
       .shake .shake-content .box{
         border: 3px solid transparent;
@@ -149,6 +150,16 @@ margin: 0;
         border-radius: 15px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
       }
-     
-        
+      
+      .shake .shake-content .mrm{
+        position: relative;
+        top: 20px;
+        left: 10px;
+        font-weight: 700;
+      }
+      .shake .shake-content .mrm span{
+        font-weight: 500;
+        position: relative;
+        top: 5px;
+      }  
       

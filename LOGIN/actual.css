@@ -194,3 +194,115 @@ margin-left: 20px;
     text-align: center;
     top: 250px;
   }
+  @media (max-width: 580px) {
+    .navbar .menu .oth li a {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      bottom: 20px;
+      left: 300px;
+      font-weight: 700;
+      transition: color 0.3s ease;
+      font-family: 'Rubik', sans-serif;
+    }
+    .navbar .menu .oth li a i{
+      color: black;
+      display: flex;
+      font-size: 15px;
+      margin: 3px;
+      font-weight: 800;
+      justify-content: space-between;
+    }
+    .home .home-content .hero{
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      width: 100%;
+      position: relative;
+      top: 80px;
+    }
+    .home .home-content .hero p{
+      font-size: 14px;
+      width: 100%;
+      margin-top: 20px;
+    }
+    form{
+      position: relative;
+      text-align: center;
+      top: 150px;
+      width: 100%;
+    }
+    .input-row{
+      display:block;
+      justify-content:space-between;
+      margin-bottom: 30px;
+      font-family: 'Rubik', sans-serif;
+    }
+    .input-row .input-group{
+      flex-basis: 45%;
+    }
+    input{
+      width: 90%;
+      font-size: 15px;
+      position: relative;
+      left: 12px;
+      outline:none;
+      text-align:left;
+      text-indent:20px;
+      border-radius: 9px;
+      border: 2px solid #D8D9DB;
+      background:#FAFBFC;
+      margin-right:25px;
+      margin-top: 15px;
+      padding-bottom: 25px;
+      margin-bottom: 10px;
+    }
+    input::placeholder{
+      color:#68717F;
+      font-family: arial;
+      position: relative;
+      top: 12px;
+      font-size: 12px;
+    }
+    .gue{
+      align-items: center;
+      text-align: right;
+      position: relative;
+      top:120px;
+      color: #029dd1;
+      right: 30px;
+    }
+    .gue a{
+      color: #029dd1;
+      font-size: 14px;
+      
+    }
+    .gue a:hover{
+    text-decoration: underline blue 2px;
+    }
+    .alt{
+      position: relative;
+      right: 320px;
+      justify-content: center;
+      top:100px;
+    
+    }
+    .alt a{
+      display: inline-block;
+      text-align: center;
+      background:#029dd1;
+      color: #fff;
+      width:80%;
+      position: relative;
+      z-index:100;
+      font-size: 14px;
+      padding: 12px 20px;
+      border-radius: 4px;
+      margin-top: 15px;
+      height: 38px;
+      border: 1.5px solid #029dd1;
+      transition: all 0.3s ease;
+      font-family: Arial;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+  }
