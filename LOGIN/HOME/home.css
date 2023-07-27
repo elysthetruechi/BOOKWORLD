@@ -170,8 +170,7 @@ margin: 0;
     .home .home-content .fitz{
       position: relative;
       top: 100px;
-      text-align: center;
-      left: 80px;
+      width: 100%;
   }
   .home .home-content .fitz .pol{
     margin-top: 15px;
@@ -187,12 +186,15 @@ margin: 0;
   }
   .best .best-content{
     width: 100%;
+    
   }
   .best .best-content .text{
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 18px;
     font-family: arial;
+    position: relative;
+    left:15px;
   }
   .best .best-content .books{
     width:100%;
@@ -202,6 +204,8 @@ margin: 0;
     width: 100%;
   }
   .best .best-content .books .list img{
-width: 500px;
+width:100%;
+position: relative;
+left: 40px;
   }
 }

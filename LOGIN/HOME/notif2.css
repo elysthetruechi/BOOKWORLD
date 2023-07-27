@@ -1,3 +1,4 @@
+@media (max-width: 580px) {
 body {
     background: white;
   }
@@ -180,3 +181,4 @@ margin: 0;
         left: 290px;
         bottom: 10px;
       }
+    }
