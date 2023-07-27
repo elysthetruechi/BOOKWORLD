@@ -55,7 +55,7 @@ margin: 0;
   .navbar .menu .date li a {
     color: black;
     position: relative;
-  left:268px;
+  left:36px;
     font-size: 15px;
     font-weight: 600;
     margin-right: 25px;
@@ -74,7 +74,7 @@ margin: 0;
     display: flex;
     flex-direction: column;
     position: relative;
-    left:620px;
+    left:380px;
     bottom: 20px;
     font-weight: 700;
     transition: color 0.3s ease;
@@ -100,22 +100,22 @@ margin: 0;
     display: none;
   }
   .home .home-content{
-    width: 900px;
+    width: 100%;
   }
   .home .home-content .logo a{
     position: relative;
     font-size: 20px;
     color: black;
     top: 20px;
-    left: 280px;
+    left: 50px;
     font-family: arial;
     font-weight: 600;
   }
-  .home .home-content .logo a span{
+  .home .home-content span i{
     position: relative;
     color: black;
-    left: 100px;
-    font-size: 18px;
+      left: 180px;
+    font-size: 22px;
     font-weight: 200;
     margin: 4px;
   }
@@ -123,7 +123,15 @@ margin: 0;
     width: 50px;
     position: relative;
     top: 30px;
-    left:280px;
+    left: 50px;
+  }
+  .best .best-content{
+    width: 100%;
+    margin-top: 90px;
+  }
+  .best .best-content .text{
+    margin-top: 20px;
+
   }
   .home .home-content p{
     font-size: 14px;
@@ -135,10 +143,10 @@ margin: 0;
     font-weight: 700;
   }
   .home .home-content .fitz{
-text-align: center;
     position: relative;
     top: 100px;
-    left: 50px;
+    text-align: center;
+    left: 80px;
   }
   @media (max-width: 580px) {
     .navbar .menu .oth li a {
@@ -146,7 +154,7 @@ text-align: center;
       flex-direction: column;
       position: relative;
       bottom: 20px;
-      left: 300px;
+      left: 380px;
       font-weight: 700;
       transition: color 0.3s ease;
       font-family: 'Rubik', sans-serif;
@@ -159,4 +167,41 @@ text-align: center;
       font-weight: 800;
       justify-content: space-between;
     }
+    .home .home-content .fitz{
+      position: relative;
+      top: 100px;
+      text-align: center;
+      left: 80px;
   }
+  .home .home-content .fitz .pol{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: arial;
+  }
+  .home .home-content .fitz .pol{
+    margin-top: 8px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 550;
+  }
+  .best .best-content{
+    width: 100%;
+  }
+  .best .best-content .text{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: arial;
+  }
+  .best .best-content .books{
+    width:100%;
+    position: relative;
+  }
+  .best .best-content .books .list{
+    width: 100%;
+  }
+  .best .best-content .books .list img{
+width: 520px;
+  }
+}
