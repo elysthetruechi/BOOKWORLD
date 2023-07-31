@@ -166,6 +166,7 @@ margin: 0;
       .shake .shake-content .box img{
         position: relative;
         top: 10px;
+        width: 15%;
       }
       .shake .shake-content .mrm i{
         font-weight: 500;
