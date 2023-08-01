@@ -262,9 +262,11 @@ margin-left: 20px;
       align-items: center;
       text-align: right;
       position: relative;
-      top:120px;
+      top:140px;
+      font-size: 18px;
       color: #029dd1;
       right: 30px;
+      font-weight:600;
     }
     .gue a{
       color: #029dd1;

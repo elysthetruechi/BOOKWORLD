@@ -4,7 +4,7 @@ body {
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:content-box;
     text-decoration: none;
   }
   .max-width {
@@ -206,6 +206,12 @@ transition: all 0.3s ease;
     background-color: #029dd1;
   }
   @media (max-width: 580px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing:content-box;
+      text-decoration: none;
+    }
     .navbar .menu .oth li a {
       display: flex;
       flex-direction: column;
@@ -254,17 +260,17 @@ transition: all 0.3s ease;
     }
     .home .carousel .card .under h2{
   text-align: center;
-  font-size: 28px;
-  width: 100%;
+  font-size: 20px;
+  width:400px;
   color: black;
   font-family: arial;
     }
     .home .carousel .card .under p{
-      font-size: 16px;
+      font-size: 11px;
       white-space: wrap;
       position: relative;
       top: 15px;
-      width: 100%;
+      width:400px;
       font-family: arial;
     }
     .home .carousel .card .hero img{
@@ -320,9 +326,9 @@ transition: all 0.3s ease;
       z-index:100;
       font-size: 12px;
       padding: 12px 20px;
-      border-radius: 4px;
+      border-radius: 7px;
       margin-top: 15px;
-      height: 35px;
+      height: 10px;
       border: 1.5px solid #029dd1;
       transition: all 0.3s ease;
       font-family: Arial;
