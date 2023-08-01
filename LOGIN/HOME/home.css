@@ -149,10 +149,18 @@ margin: 0;
     left: 80px;
   }
   @media (max-width: 580px) {
-    /*body{
-      width:70%;
-      height: 100%;
-    }*/
+    body{
+      max-width:85%;
+    }
+    .home .home-content p{
+      font-size: 14px;
+      letter-spacing: 1px;
+      position: relative;
+      top: 50px;
+      left:20%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+    }
     .navbar .menu .oth li a {
       display: flex;
       flex-direction: column;
@@ -174,8 +182,12 @@ margin: 0;
     .home .home-content .fitz{
       position: relative;
       top: 100px;
-      width: 100%;
-  }
+      left: 40px;
+    }
+    .home .home-content .fitz img{
+      position: relative;
+      text-align: center;
+    }
   .home .home-content .fitz .pol{
     margin-top: 15px;
     font-weight: 700;
@@ -189,7 +201,7 @@ margin: 0;
     font-weight: 550;
   }
   .best .best-content{
-    width: 100%;
+    width:40%;
     margin-top: 30px;
     
   }
@@ -211,9 +223,9 @@ margin: 0;
     width:400px;
   }
   .best .best-content .books .list img{
-width: 120px;
+width:121px;
 position: relative;
-display: flex;
+display:inline-flex;
 flex-direction: row;
 float:left;
 left: 12px;
