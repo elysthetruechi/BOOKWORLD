@@ -200,10 +200,12 @@ margin: 0;
     font-family: arial;
     position: relative;
     left:15px;
+    top: 60px;
   }
   .best .best-content .books{
     width:100%;
     position: relative;
+    top: 60px;
   }
   .best .best-content .books .list{
     width:400px;
@@ -217,33 +219,34 @@ float:left;
 left: 12px;
 margin-inline:6px;
   }
-}
-.bost .bost-content .beeks{
-  width:100%;
+  .bost .bost-content .beeks{
+    width:100%;
+    position: relative;
+  }
+  .bost .bost-content .beeks .lost{
+    width:400px;
+  }
+  .bost .bost-content .beeks .lost img{
+  width: 120px;
   position: relative;
-}
-.bost .bost-content .beeks .lost{
-  width:400px;
-}
-.bost .bost-content .beeks .lost img{
-width: 120px;
-position: relative;
-display: flex;
-flex-direction: row;
-float:left;
-left: 12px;
-margin-inline:6px;
-}
-.bost .bost-content{
-  width: 100%;
-  margin-top: 30px;
-  
-}
-.bost .bost-content .text{
-  margin-top: 30px;
-  font-weight: 600;
-  font-size: 18px;
-  font-family: arial;
-  position: relative;
-  left:15px;
+  display: flex;
+  flex-direction: row;
+  float:left;
+  left: 12px;
+  top: 90px;
+  margin-inline:6px;
+  }
+  .bost .bost-content{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .bost .bost-content .text{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: arial;
+    position: relative;
+    left:15px;
+    top: 80px;
+  }
 }
