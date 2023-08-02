@@ -1,11 +1,11 @@
 body {
     background: #ffffff;
+    width: 100%;
 
   }
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
   }
   .max-width {
@@ -260,5 +260,38 @@ margin-inline:6px;
     position: relative;
     left:15px;
     top: 80px;
+  }
+  .icon .icon-content{
+    position: relative;
+    top: 100px;
+    width: 125%;
+    display: flex;
+  }
+  .icon .icon-content .jaden{
+background:#fff;
+width:100%;
+height: 50px;
+position: relative;
+bottom: 10px;
+
+  }
+  .icon .icon-content .jaden i{
+    font-size: 40px;
+    margin-inline: 32px;
+    color: #000;
+  }
+  .icon .icon-content .jaden p{
+    margin-inline: 32px;
+    font-size: 10px;
+    color: #000;
+    position: relative;
+    left: 5px;
+    font-weight: 600;
+  }
+  .icon .icon-content .jaden p:hover{
+    color: #029dd1;
+  }
+  .icon .icon-content .jaden i:hover{
+    color: #029dd1;
   }
 }
