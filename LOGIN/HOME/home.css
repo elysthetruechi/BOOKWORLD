@@ -1,172 +1,82 @@
-body {
-    background: #ffffff;
-    width: 100%;
 
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-  }
-  .max-width {
-max-width:100%;
-padding:0;
-margin: 0;
-  }
-  section {
-    padding: 20px 0;
-  }
-  .navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 15px 0;
-    transition: all 0.5s ease;
-    font-family: 'Rubik', sans-serif;
-    display: flex;
-    justify-content: space-between;
-  }
-  .navbar.sticky {
-    padding: 30px 0;
-    background:black;
-  }
-  .navbar .logo a {
-    position: relative;
-    left:60px ;
-    font-size: 30px;
-    font-weight: 600;
-    color: black;
-    transition: color 0.5s ease;
-    font-family: 'Rubik', sans-serif;
-  }
-  
-  .navbar .max-width {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .navbar .menu li {
-    position: relative;
-    right: 5px;
-    list-style: none;
-    display: inline-block;
-  }
-  .navbar .menu .date li a {
-    color: black;
-    position: relative;
-  left:36px;
-    font-size: 15px;
-    font-weight: 600;
-    margin-right: 25px;
-    padding-left: 20px;
-    transition: color 0.3s ease;
-    font-family: 'Rubik', sans-serif;
-  }
-  .navbar .menu .date li a i{
-    color: black;
-  position: relative;
-  right:38px;
-  top: 3px;
-  font-size: 18px;
-  }
-  .navbar .menu .oth li a {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left:380px;
-    bottom: 20px;
-    font-weight: 700;
-    transition: color 0.3s ease;
-    font-family: 'Rubik', sans-serif;
-  }
-  .navbar .menu .oth li a i{
-    color: black;
-    display: flex;
-    font-size: 15px;
-    margin: 3px;
-    font-weight: 800;
-    justify-content: space-between;
-  }
-
-  .navbar .menu li a:hover,
-  .navbar .logo a:hover {
-    color:#029dd1;
-  }
-  .menu-btn {
-    color: #fff;
-    font-size: 23px;
-    cursor: pointer;
-    display: none;
-  }
-  .home .home-content{
-    width: 100%;
-  }
-  .home .home-content .logo a{
-    position: relative;
-    font-size: 20px;
-    color: black;
-    top: 20px;
-    left: 50px;
-    font-family: arial;
-    font-weight: 600;
-  }
-  .home .home-content span i{
-    position: relative;
-    color: black;
-      left: 180px;
-    font-size: 22px;
-    font-weight: 200;
-    margin: 4px;
-  }
-  .home .home-content .logo img{
-    width: 50px;
-    position: relative;
-    top: 30px;
-    left: 50px;
-  }
-  .best .best-content{
-    width: 100%;
-    margin-top: 90px;
-  }
-  .best .best-content .text{
-    margin-top: 20px;
-
-  }
-  .home .home-content p{
-    font-size: 14px;
-    letter-spacing: 1px;
-    position: relative;
-    top: 50px;
-    left:30%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-  }
-  .home .home-content .fitz{
-    position: relative;
-    top: 100px;
-    text-align: center;
-    left: 80px;
-  }
   @media (max-width: 580px) {
-    body{
-      max-width:85%;
+
+    body {
+      background: #ffffff;
     }
-    .home .home-content p{
-      font-size: 14px;
-      letter-spacing: 1px;
+    * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+    .max-width {
+  max-width:100%;
+  padding:0;
+  margin: 0;
+    }
+    section {
+      padding: 20px 0;
+    }
+    .navbar {
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      padding: 15px 0;
+      transition: all 0.5s ease;
+      font-family: 'Rubik', sans-serif;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navbar.sticky {
+      padding: 30px 0;
+      background:black;
+    }
+    .navbar .logo a {
       position: relative;
-      top: 50px;
-      left:20%;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 700;
+      left:60px ;
+      font-size: 30px;
+      font-weight: 600;
+      color: black;
+      transition: color 0.5s ease;
+      font-family: 'Rubik', sans-serif;
+    }
+    
+    .navbar .max-width {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .navbar .menu li {
+      position: relative;
+      right: 5px;
+      list-style: none;
+      display: inline-block;
+    }
+    .navbar .menu .date li a {
+      color: black;
+      position: relative;
+    left:36px;
+      font-size: 15px;
+      font-weight: 600;
+      margin-right: 25px;
+      padding-left: 20px;
+      transition: color 0.3s ease;
+      font-family: 'Rubik', sans-serif;
+    }
+    .navbar .menu .date li a i{
+      color: black;
+    position: relative;
+    right:38px;
+    top: 3px;
+    font-size: 18px;
     }
     .navbar .menu .oth li a {
       display: flex;
       flex-direction: column;
       position: relative;
+      left:320px;
       bottom: 20px;
-      left: 380px;
       font-weight: 700;
       transition: color 0.3s ease;
       font-family: 'Rubik', sans-serif;
@@ -179,119 +89,150 @@ margin: 0;
       font-weight: 800;
       justify-content: space-between;
     }
-    .home .home-content .fitz{
-      position: relative;
-      top: 100px;
-      left: 40px;
+    .navbar .menu li a:hover,
+    .navbar .logo a:hover {
+      color:#029dd1;
     }
-    .home .home-content .fitz img{
+    .menu-btn {
+      color: #fff;
+      font-size: 23px;
+      cursor: pointer;
+      display: none;
+    }
+    .home .home-content .logo img{
+      width: 15%;
       position: relative;
+      top: 30px;
+    }
+    .home .home-content .logo a{
+      font-size: 20px;
+      color: #000;
+      font-family: arial;
+      position: relative;
+      top: 20px;
+      font-weight: 600;
+    }
+    .home .home-content .logo span{
+      position: relative;
+      left: 180px;
+    }
+    .home .home-content .logo span a i{
+      margin-inline:3px;
+      color: #000;
+    }
+    .home .home-content  p{
+      position: relative;
+      top: 50px;
+      font-size: 18px;
+      margin-left: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 550;
+    }
+   .home .home-content .fitz img{
+     position: relative;
+     left: 15px;
+     top: 100px;
+    }
+    .home .home-content .fitz{
       text-align: center;
     }
-  .home .home-content .fitz .pol{
-    margin-top: 15px;
-    font-weight: 700;
-    font-size: 18px;
-    font-family: arial;
-  }
-  .home .home-content .fitz .pol{
-    margin-top: 8px;
-    font-family: arial;
-    font-size: 16px;
+    .home .home-content .fitz .pol{
+      position: relative;
+      top: 100px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .home .home-content .fitz .pel{
+      position: relative;
+      top: 100px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .best .best-content .text{
+      position: relative;
+      top: 100px;
+      font-size: 18px;
+      font-family: arial;
+      font-weight: 550;
+    }
+    .best .best-content .books{
+      position: relative;
+      top: 130px;
+      display: flex;
+      width: 100%;
+      text-align: center;
+    }
+    .best .best-content .books img{
+      width: 100%;
+      margin-inline:8px;
+      height: 70%;
+    }
+    .best .best-content .books .list{
+      margin:5px ;
+    }
+    .best .best-content .books .will h{
+    font-size: 13px;
     font-weight: 550;
-  }
-  .best .best-content{
-    width:40%;
-    margin-top: 30px;
-    
-  }
-  .best .best-content .text{
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: arial;
-    position: relative;
-    left:15px;
-    top: 60px;
-  }
-  .best .best-content .books{
-    width:100%;
-    position: relative;
-    top: 60px;
-  }
-  .best .best-content .books .list{
-    width:400px;
-  }
-  .best .best-content .books .list img{
-width:121px;
-position: relative;
-display:inline-flex;
-flex-direction: row;
-float:left;
-left: 12px;
-margin-inline:6px;
-  }
-  .bost .bost-content .beeks{
-    width:100%;
-    position: relative;
-  }
-  .bost .bost-content .beeks .lost{
-    width:400px;
-  }
-  .bost .bost-content .beeks .lost img{
-  width: 120px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  float:left;
-  left: 12px;
-  top: 90px;
-  margin-inline:6px;
-  }
-  .bost .bost-content{
-    width: 100%;
-    margin-top: 30px;
-  }
-  .bost .bost-content .text{
-    margin-top: 30px;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: arial;
-    position: relative;
-    left:15px;
-    top: 80px;
-  }
-  .icon .icon-content{
-    position: relative;
-    top: 100px;
-    width: 125%;
-    display: flex;
-  }
-  .icon .icon-content .jaden{
-background:#fff;
-width:100%;
-height: 50px;
-position: relative;
-bottom: 10px;
+    }
+    .best .best-content .books .will p{
+      font-size: 10px;
+      font-weight: 550;
+      }
+      .bost .bost-content .text{
+        position: relative;
+        top: 70px;
+        font-size: 18px;
+        font-family: arial;
+        font-weight: 550;
+      }
+      .bost .bost-content .beeks{
+        position: relative;
+        top: 100px;
+        display: flex;
+        width: 100%;
+        text-align: center;
+      }
+      .bost .bost-content .beeks .lost{
+        z-index:-1;
+  margin:5px ;
+      }
+      .bost .bost-content .beeks img{
+        width: 100%;
+        margin-inline:8px;
+        height: 80%;
+      }
+     .icon .icon-content .jaden{
+      position: relative;
+      top: 30px;
+      display: flex;
+      float: left;
+      margin-inline: 10px;
+      height: 50px;
+      width: 20%;
+     } 
+     .icon .icon-content{
+      border: 1px solid black;
+      height: 70px;
+      top: 40px;
+      background:white;
+      border-bottom: none;
+     }
+     .icon .icon-content .jaden i{
+      font-size: 30px;
+      position:relative;
+      left: 25px;
+      bottom: 15px;
+      margin-inline: 5px;
 
+     }
+     .icon .icon-content .jaden p{
+      position: relative;
+      top: 25px;
+      text-align: center;
+      right: 10px;
+      font-size: 10px;
+     }
+     .icon .icon-content .jaden i:hover{
+      color: #029dd1;
+     }
   }
-  .icon .icon-content .jaden i{
-    font-size: 40px;
-    margin-inline: 32px;
-    color: #000;
-  }
-  .icon .icon-content .jaden p{
-    margin-inline: 32px;
-    font-size: 10px;
-    color: #000;
-    position: relative;
-    left: 5px;
-    font-weight: 600;
-  }
-  .icon .icon-content .jaden p:hover{
-    color: #029dd1;
-  }
-  .icon .icon-content .jaden i:hover{
-    color: #029dd1;
-  }
-}
