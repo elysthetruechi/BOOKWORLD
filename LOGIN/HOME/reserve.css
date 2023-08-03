@@ -15,7 +15,7 @@
     
       }
       section {
-        padding: 20px 0;
+        /*padding: 20px 0;*/
       }
       .navbar {
         position: fixed;
@@ -126,9 +126,7 @@
       .dome .dome-content .fantasma img{
         width: 100%;
         position: relative;
-        top: 30px;
         object-fit: cover;
-        height: 100%;
       }
       .dome .dome-content .lover img{
         position: relative;
@@ -154,24 +152,20 @@
         bottom: 320px;
         text-align: center;
       }
-      .dome .dome-content .box{
-        display:block;
-        width:100%;
-        padding: 25px;
-        position: relative;
-        bottom:180px;
-        z-index:100;
-      }
+     
       .dome .dome-content .box p{
         font-family: Arial;
         margin-top: 5px;
         font-size: 20px;
         font-weight: 700;
         color: black;
+        position: relative;
+        bottom:260px;
+        z-index: 100;
       }
       .home .home-content .layer {
         width: 100%;
-        height: 90%;
+        height: 77%;
         background: linear-gradient(rgba(97, 110, 115, 0.1), #999494);
         position: absolute;
         left: 0;
@@ -185,24 +179,67 @@
         text-align: center;
         z-index: 100;
       }
+      .proceed{
+        position: relative;
+        bottom: 110px;
+        z-index:-100;
+      }
+      .proceed .proceed-content{
+        align-items: center;
+        text-align: center;
+        z-index:999;
+      }
       .proceed .proceed-content .tube{
-      width: 100%;
-      height: 500px;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        height: 300px;
+        position: relative;
+       justify-content: center;
+       bottom: 100px;
+       border: 1px solid black;
+       border-bottom: none;
+       border-left: none;
+       border-right: none;
+       padding-bottom: 450px;
+       z-index:-1;
+      /*
+      
       background-color: transparent;
-      border: 1px solid black;
-      border-radius: 15px;
-      position: relative;
-      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      
+      
+      p
+      */
       }
       .proceed .proceed-content .tube img{
+        align-items: center;
        width: 30%;
-       position: relative;
-       left: 35%;
+       margin-top: 40px;
+       
       }
       .proceed .proceed-content .tube .note{
-        text-align:center;
         width: 100%;
-        font-size: 18px;
-        margin-top: 40px;
+        font-size: 19px;
+      margin-top: 30px;
       }
+      .tube a{
+      display: inline-block;
+      text-align: center;
+      background:#029dd1;
+      color: #fff;
+      position: relative;
+      width: 90%;
+      top: 80px;
+      z-index:100;
+      font-size: 22px;
+      padding: 12px 20px;
+      border-radius: 4px;
+      margin-top: 15px;
+      height: 58px;
+      border: 1.5px solid #029dd1;
+      transition: all 0.3s ease;
+      font-family: Arial;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     }
+    }
+  
