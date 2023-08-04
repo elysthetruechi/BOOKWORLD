@@ -118,4 +118,18 @@
             font-size: 18px;
             font-weight: 700;
           }
+          .home .home-content .fantasma img {
+         width: 100%;
+         object-fit: cover;
+         position: relative;
+         bottom: 80px;
+          }
+          .home .home-content  .lover img{
+            width: 60%;
+            position:absolute;
+            top:170px;
+            bottom:0px;
+            left: 80px;
+            z-index:-1;
+          }
         }
