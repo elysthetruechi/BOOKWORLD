@@ -1,4 +1,4 @@
-@media (max-width: 580px) {
+/*@media (max-width: 580px) {*/
     body {
         background: white;
       }
@@ -118,18 +118,30 @@
             font-size: 18px;
             font-weight: 700;
           }
-          .home .home-content .fantasma img {
-         width: 100%;
-         object-fit: cover;
-         position: relative;
-         bottom: 80px;
-          }
-          .home .home-content  .lover img{
-            width: 60%;
-            position:absolute;
-            top:170px;
-            bottom:0px;
-            left: 80px;
-            z-index:-1;
-          }
-        }
+          .home .home-content .fantasma img{
+            width: 100%;
+            position: fixed;
+            height: 50%;
+            top: 0;
+          } 
+.home .home-content .lover img{
+  width: 50%;
+  position: relative;
+  left: 100px;
+  top: 70px;
+  z-index: -100;
+}
+.sec .sec-content{
+  margin-top: 80px;
+ border: 1px solid transparent;
+ border-radius: 15px;
+ box-shadow:0px -5px 5px rgba(0, 0, 0, 0.3);
+ width: 100%;
+ position: relative;
+}
+.sec .sec-content .honor{
+  border: 2px solid black;
+  margin-top: 20px;
+  position: relative;
+  z-index:100;
+}
