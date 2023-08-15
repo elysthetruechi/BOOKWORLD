@@ -132,16 +132,37 @@
   z-index: -100;
 }
 .sec .sec-content{
-  margin-top: 80px;
+  margin-top: 113px;
  border: 1px solid transparent;
- border-radius: 15px;
+ border-radius: 25px;
  box-shadow:0px -5px 5px rgba(0, 0, 0, 0.3);
  width: 100%;
- position: relative;
+ z-index:100;
 }
 .sec .sec-content .honor{
-  border: 2px solid black;
-  margin-top: 20px;
+  position: static;
+  z-index:10;
+  background: #e1f3f9;
+}
+.sec .sec-content .honor img{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.sec .sec-content .honor .span{
+  margin-left: 90px;
+  font-size: 20px;
   position: relative;
-  z-index:100;
+  bottom: 64px;
+}
+.sec .sec-content .honor .span p{
+  margin-left: 2px;
+  font-size: 18px;
+  position: relative;
+  bottom: 0px;
+}
+.sec .sec-content i{
+  position: relative;
+  font-size: 25px;
+  left: 350px;
+  bottom: 110px;
 }
