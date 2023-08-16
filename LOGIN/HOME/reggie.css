@@ -166,3 +166,57 @@
   left: 350px;
   bottom: 110px;
 }
+.next .next-content{
+ width: 100%;
+ margin-top: 10px;
+}
+.next .next-content h4{
+  font-size: 18px;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  letter-spacing: 2px;
+  font-family: arial;
+}
+.next .next-content .img{
+  border: none;
+  padding-bottom: 15px;
+  border-bottom: 1px solid grey;
+}
+.next .next-content .img img{
+padding-left: 5px;
+width: 50px;
+}
+/* Reset default textarea styles */
+textarea {
+  position: relative;
+  top: 15px;
+  right: 3px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 15px;
+  background: whitesmoke;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Style the container */
+.textarea-container {
+  margin: 20px;
+}
+
+/* Add some additional styling */
+textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a slight shadow on focus */
+}
+.next .next-content h5{
+  font-size: 18px;
+  top: 10px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  left:15px;
+  top: 10px;
+}
