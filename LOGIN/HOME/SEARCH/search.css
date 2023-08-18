@@ -95,3 +95,60 @@ margin: 0;
     cursor: pointer;
     display: none;
   }
+  .box{
+    position: relative;
+    top: 80px;
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    left: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    gap:12px;
+  }
+  .box i{
+    font-size: 20px;
+  }
+  .box p{
+    font-family: arial;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .next .text{
+    position: relative;
+    top: 115px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight:600;
+    font-family: 'Roboto', sans-serif;
+  }
+  .next .text span{
+    position: relative;
+    left: 58%;
+    font-weight: 100;
+    color: #029dd1;
+    font-size: 18px;
+  }
+  .voice{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .top{
+   position: relative;
+   top: 250px;
+   margin-left: 25px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   font-weight: 600; 
+  }
+  .searches{
+    position: relative;
+    top: 260px;
+    display: flex;
+    margin-left: 25px;
+    gap: 25px;
+  }
+  
