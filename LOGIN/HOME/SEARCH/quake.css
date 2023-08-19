@@ -1,6 +1,5 @@
 body {
-    background: white;
-    width: 100%;
+    background:url(Rectangle\ 16.png);
   }
   * {
     margin: 0;
@@ -130,82 +129,3 @@ margin: 0;
     color: #029dd1;
     font-size: 18px;
   }
-  .voice{
-    position: relative;
-    top: 80px;
-    text-align: center;
-    font-size: 17px;
-    font-family: 'Roboto', sans-serif;
-  }
-  .top{
-   position: relative;
-   top: 250px;
-   margin-left: 25px;
-   font-family: 'Roboto', sans-serif;
-   font-size: 13px;
-   font-weight: 600; 
-  }
-  .searches{
-    position: relative;
-    top: 260px;
-    display: flex;
-    margin-left: 25px;
-    gap: 25px;
-  }
-  .post{
-    position: relative;
-    top: 280px;
-    margin-left: 25px;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-  }
-
-  .pics{
-    position: relative;
-    top: 290px;
-    margin-left: 25px;
-    width: 100%;
-    display: flex;
-    gap: 10px;
-  }
-  .icon-content .jaden{
-    position: relative;
-    top: 30px;
-    display: flex;
-    float: left;
-    margin-inline: 10px;
-    height: 50px;
-    width: 20%;
-   } 
-   .icon-content{
-    border: 1px solid black;
-    height: 70px;
-    position: relative;
-    margin-top: 380px;
-    background:white;
-    border-bottom: none;
-   }
-   .icon-content .jaden a i{
-    font-size: 30px;
-    position:relative;
-    left: 25px;
-    bottom: 15px;
-    margin-inline: 5px;
-    color: black;
-
-   }
-   .icon-content .jaden p{
-    position: relative;
-    top: 25px;
-    text-align: center;
-    right: 10px;
-    font-size: 10px;
-   }
-   .icon-content .jaden a i:hover{
-    color: #029dd1;
-   }
-   .icon-content .jaden p:hover{
-    color: #029dd1;
-   }
-
- 
