@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background:url(Rectangle\ 16.png);
   }
   * {
     margin: 0;
@@ -151,6 +151,13 @@ margin: 0;
     margin-left: 25px;
     gap: 25px;
   }
+  .searches2{
+    position: relative;
+    top: 300px;
+    display: flex;
+    margin-left: 25px;
+    gap: 25px;
+  }
   .post{
     position: relative;
     top: 280px;
@@ -159,15 +166,8 @@ margin: 0;
     font-family: 'Roboto', sans-serif;
   }
 
-  .pics{
-    position: relative;
-    top: 290px;
-    margin-left: 25px;
-    width: 100%;
-    display: flex;
-    gap: 10px;
-  }
-  .icon .jaden{
+  
+  .icon-content .jaden{
     position: relative;
     top: 30px;
     display: flex;
@@ -176,7 +176,7 @@ margin: 0;
     height: 50px;
     width: 20%;
    } 
-   .icon .icon-content{
+   .icon-content{
     border: 1px solid black;
     height: 70px;
     position: relative;
@@ -184,7 +184,7 @@ margin: 0;
     background:white;
     border-bottom: none;
    }
-   .icon .icon-content .jaden a i{
+  .icon-content .jaden a i{
     font-size: 30px;
     position:relative;
     left: 25px;
@@ -193,7 +193,7 @@ margin: 0;
     color: black;
 
    }
-   .icon .icon-content .jaden p{
+   .icon-content .jaden p{
     position: relative;
     top: 25px;
     text-align: center;
