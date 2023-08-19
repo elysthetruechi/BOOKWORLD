@@ -151,4 +151,20 @@ margin: 0;
     margin-left: 25px;
     gap: 25px;
   }
-  
+  .post{
+    position: relative;
+    top: 280px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .pics{
+    position: relative;
+    top: 290px;
+    margin-left: 25px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+ 
