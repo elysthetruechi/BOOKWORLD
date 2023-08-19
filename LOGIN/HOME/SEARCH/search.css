@@ -167,4 +167,40 @@ margin: 0;
     display: flex;
     gap: 10px;
   }
+  .icon .jaden{
+    position: relative;
+    top: 30px;
+    display: flex;
+    float: left;
+    margin-inline: 10px;
+    height: 50px;
+    width: 20%;
+   } 
+   .icon .icon-content{
+    border: 1px solid black;
+    height: 70px;
+    position: relative;
+    margin-top: 380px;
+    background:white;
+    border-bottom: none;
+   }
+   .icon .icon-content .jaden i{
+    font-size: 30px;
+    position:relative;
+    left: 25px;
+    bottom: 15px;
+    margin-inline: 5px;
+
+   }
+   .icon .icon-content .jaden p{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    right: 10px;
+    font-size: 10px;
+   }
+   .icon .icon-content .jaden i:hover{
+    color: #029dd1;
+   }
+
  
