@@ -1,3 +1,4 @@
+@media (max-width: 600px){
 body {
     background:url(Rectangle\ 16.png);
   }
@@ -129,3 +130,102 @@ margin: 0;
     color: #029dd1;
     font-size: 18px;
   }
+  .bent a{
+    display: inline-flex;
+    position: relative;
+    top: 130px;
+    justify-content:space-between;
+    text-align: center;
+    margin-inline: 10px;
+    align-items: center;
+    background:whitesmoke;
+    color:#029dd1;
+    font-weight: 550;
+    font-size: 13px;
+    padding: 13px 24px;
+    border-radius: 17px;
+    border: 1.5px solid transparent;
+    transition: all 0.3s ease;
+    font-family: Arial;
+  }
+  .bent a span{
+font-size: 18px;
+position: relative;
+left: 10px;
+  }
+  .bent a:hover{
+    background: transparent;
+    color: red;
+  }
+  .top{
+    position: relative;
+    top: 170px;
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 600; 
+   }
+   .searches{
+    position: relative;
+    top: 180px;
+    display: flex;
+    margin-left: 25px;
+    gap: 25px;
+  }
+  .post{
+    position: relative;
+    top: 220px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .pics{
+    position: relative;
+    top: 240px;
+    margin-left: 25px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+  .icon-content .jaden{
+    position: relative;
+    top: 30px;
+    display: flex;
+    float: left;
+    margin-inline: 10px;
+    height: 50px;
+    width: 20%;
+   } 
+   .icon-content{
+    border: 1px solid black;
+    height: 70px;
+    top:300px;
+    position: relative;
+    background:white;
+    border-bottom: none;
+   }
+  .icon-content .jaden a i{
+    font-size: 30px;
+    position:relative;
+    left: 25px;
+    bottom: 15px;
+    margin-inline: 5px;
+    color: black;
+
+   }
+   .icon-content .jaden p{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    right: 10px;
+    font-size: 10px;
+   }
+   .icon .icon-content .jaden a i:hover{
+    color: #029dd1;
+   }
+   .icon .icon-content .jaden p:hover{
+    color: #029dd1;
+   }
+  }
+ 
