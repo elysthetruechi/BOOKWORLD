@@ -184,9 +184,9 @@ left: 10px;
     position: relative;
     top: 240px;
     margin-left: 25px;
-    width: 100%;
+    width: 10%;
     display: flex;
-    gap: 15px;
+    gap: 25px;
   }
   .icon-content .jaden{
     position: relative;

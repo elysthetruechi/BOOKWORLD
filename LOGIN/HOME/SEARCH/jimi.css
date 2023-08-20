@@ -1,0 +1,180 @@
+@media (max-width: 600px){
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      .max-width {
+    max-width: 1340px;
+    padding:0;
+    margin: 0;
+    
+      }
+     
+      .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding: 15px 0;
+        transition: all 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar.sticky {
+        padding: 30px 0;
+        background:black;
+      }
+      .navbar .logo a {
+        position: relative;
+        left:80px ;
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        transition: color 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      
+      .navbar .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .navbar .menu li {
+        position: relative;
+        right: 5px;
+        list-style: none;
+        display: inline-block;
+      }
+      .navbar .menu .date li a {
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 25px;
+        padding-left: 20px;
+        transition: color 0.3s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      .navbar .menu .date li a i{
+        color: black;
+      position: relative;
+      right:38px;
+      top: 3px;
+      font-size: 18px;
+      }
+      .navbar .menu .oth li a {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left:320px;
+        bottom: 20px;
+        font-weight: 700;
+        transition: color 0.3s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      .navbar .menu .oth li a i{
+        color: black;
+        display: flex;
+        font-size: 15px;
+        margin: 3px;
+        font-weight: 800;
+        justify-content: space-between;
+      }
+    
+      .navbar .menu li a:hover,
+      .navbar .logo a:hover {
+        color:#029dd1;
+      }
+      .menu-btn {
+        color: #fff;
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
+      }
+      .box{
+        position: relative;
+        top: 80px;
+        display: flex;
+        border: 1px solid black;
+        width: 90%;
+        left: 20px;
+        padding: 20px;
+        border-radius: 15px;
+        gap:12px;
+      }
+      .box i{
+        font-size: 20px;
+      }
+      .box p{
+        font-family: arial;
+        font-weight: 500;
+        font-size: 16px;
+      }
+      .marcel{
+        position: relative;
+        top: 120px;
+        display:flex;
+        flex-direction:column;
+        gap: 25px;
+      }
+      .marcel .first{
+        border: none;
+        border-bottom: 1px solid rgb(208, 204, 204);
+      }
+      .marcel .first span{
+        position: relative;
+        bottom: 32px;
+        left: 30px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+      }
+      .marcel .first img {
+        position: relative;
+        left: 15px;
+        bottom: 10px;
+        width: 55px;
+      }
+      .icon-content .jaden{
+        position: relative;
+        top: 30px;
+        display: flex;
+        float: left;
+        margin-inline: 10px;
+        height: 50px;
+        width: 20%;
+       } 
+       .icon-content{
+        border: 1px solid black;
+        height: 70px;
+        position: relative;
+       top: 280px;
+        background:white;
+        border-bottom: none;
+       }
+      .icon-content .jaden a i{
+        font-size: 30px;
+        position:relative;
+        left: 25px;
+        bottom: 15px;
+        margin-inline: 5px;
+        color: black;
+    
+       }
+       .icon-content .jaden p{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        right: 10px;
+        font-size: 10px;
+       }
+       .icon .icon-content .jaden a i:hover{
+        color: #029dd1;
+       }
+       .icon .icon-content .jaden p:hover{
+        color: #029dd1;
+       }
+    
+    }
