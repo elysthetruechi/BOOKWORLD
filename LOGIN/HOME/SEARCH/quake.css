@@ -172,6 +172,15 @@ left: 10px;
     margin-left: 25px;
     gap: 25px;
   }
+  .searches p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .searches p span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+   }
   .post{
     position: relative;
     top: 220px;
@@ -185,8 +194,13 @@ left: 10px;
     top: 240px;
     margin-left: 25px;
     width: 10%;
-    display: flex;
-    gap: 25px;
+    display:flex;
+    gap: 30px;
+  }
+  .pics .gmi d{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
   }
   .icon-content .jaden{
     position: relative;

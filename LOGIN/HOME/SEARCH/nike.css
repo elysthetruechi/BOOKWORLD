@@ -147,10 +147,28 @@ margin: 0;
          margin-left: 25px;
          gap: 25px;
        }
+       .searches p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+       }
+       .searches p span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+       }
        .searches2{
          position: relative;
          top: 210px;
          display: flex;
          margin-left: 25px;
          gap: 25px;
+       }
+       .searches2 p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+       }
+       .searches2 p span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
        }

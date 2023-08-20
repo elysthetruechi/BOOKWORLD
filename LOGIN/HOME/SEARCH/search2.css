@@ -144,6 +144,7 @@ margin: 0;
    font-size: 13px;
    font-weight: 600; 
   }
+  
   .searches{
     position: relative;
     top: 260px;
@@ -151,6 +152,15 @@ margin: 0;
     margin-left: 25px;
     gap: 25px;
   }
+  .searches p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .searches p span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+   }
   .searches2{
     position: relative;
     top: 300px;
@@ -158,6 +168,15 @@ margin: 0;
     margin-left: 25px;
     gap: 25px;
   }
+  .searches2 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .searches2 p span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+   }
   .post{
     position: relative;
     top: 280px;

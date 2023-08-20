@@ -138,23 +138,32 @@ margin: 0;
     font-family: 'Roboto', sans-serif;
   }
   .top{
-   position: relative;
-   top: 250px;
-   margin-left: 25px;
-   font-family: 'Roboto', sans-serif;
-   font-size: 13px;
-   font-weight: 600; 
-  }
-  .searches{
     position: relative;
-    top: 260px;
+    top: 200px;
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 600; 
+   }
+   .searches{
+    position: relative;
+    top: 220px;
     display: flex;
     margin-left: 25px;
     gap: 25px;
   }
+  .searches p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .searches p span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+   }
   .post{
     position: relative;
-    top: 280px;
+    top: 260px;
     margin-left: 25px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
@@ -162,11 +171,16 @@ margin: 0;
 
   .pics{
     position: relative;
-    top: 290px;
+    top: 280px;
     margin-left: 25px;
     width: 10%;
-    display: flex;
-    gap: 10px;
+    display:flex;
+    gap: 30px;
+  }
+  .pics .gmi d{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
   }
   .icon-content .jaden{
     position: relative;
@@ -180,12 +194,12 @@ margin: 0;
    .icon-content{
     border: 1px solid black;
     height: 70px;
+    top:350px;
     position: relative;
-    margin-top: 380px;
     background:white;
     border-bottom: none;
    }
-   .icon-content .jaden a i{
+  .icon-content .jaden a i{
     font-size: 30px;
     position:relative;
     left: 25px;
@@ -201,11 +215,10 @@ margin: 0;
     right: 10px;
     font-size: 10px;
    }
-   .icon-content .jaden a i:hover{
+   .icon .icon-content .jaden a i:hover{
     color: #029dd1;
    }
-   .icon-content .jaden p:hover{
+   .icon .icon-content .jaden p:hover{
     color: #029dd1;
    }
-
- 
+  
