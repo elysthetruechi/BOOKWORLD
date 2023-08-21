@@ -122,52 +122,55 @@
       .dome .dome-content{
         width: 100%;
       }
+      .dome .dome-content .lover{
+        border: none;
+        border-bottom: 1px solid rgb(190, 184, 184);
+        position: relative;
+        top: 140px;
+      }
       .dome .dome-content .fantasma img{
         width: 100%;
-        position: relative;
-        bottom: 100px;
+        position:fixed;
+        top: 0;
       }
-      
       .dome .dome-content .lover img{
         position: relative;
         left: 120px;
-        bottom: 450px;
+        bottom: 40px;
         
       }
       .dome .dome-content .lover .pol{
         position: relative;
-        bottom: 450px;
         text-align: center;
-        margin-top: 15px;
+        bottom: 28px;
         font-weight: 600;
         font-size: 18px;
         font-family: arial;
         font-family: 'Roboto', sans-serif;
       }
       .dome .dome-content .lover .pel{
-        margin-top: 8px;
+        bottom: 25px;
         font-family: arial;
         font-size: 16px;
         font-weight:400;
         position: relative;
-        bottom: 450px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
       }
       
       .rome .rome-content p{
-        font-size: 18px;
-        font-family: arial;
-        font-weight: 550;
+        font-size: 20px;
+        font-weight: 650;
         position: relative;
-        bottom: 400px;
         margin-left: 25px;
+        top:150px;
+        letter-spacing: .1em;
         font-family: 'Roboto', sans-serif;
       }
       .review .review-content{
         width: 100%;
         position: relative;
-        bottom: 380px;
+        top:200px;
       }
       .review .review-content .sad{
         display: block;
@@ -178,7 +181,7 @@
       }
       .review .review-content .sad .reviews span{
         position: relative;
-        left: 39.7%;
+        left: 45%;
         font-size: 15px;
         bottom: 18px;
         font-weight: 600;
@@ -188,7 +191,7 @@
         position: relative;
         top: 25px;
         width: 30px;
-        left:17px;
+        left:21px;
         align-items: center;
       }
       .review .review-content .sad .reviews span1 img{
@@ -200,7 +203,7 @@
       }
       .review .review-content .sad .reviews span1{
         position: relative;
-        left: 40%;
+        left: 46%;
         font-size: 15px;
         bottom: 18px;
         font-weight: 600;
@@ -215,7 +218,7 @@
       }
       .review .review-content .sad .reviews span2{
         position: relative;
-        left: 42%;
+        left: 46%;
         font-size: 15px;
         bottom: 18px;
         font-weight: 600;
@@ -230,7 +233,7 @@
       }
       .review .review-content .sad .reviews span3{
         position: relative;
-        left: 38%;
+        left: 42%;
         font-size: 15px;
         bottom: 18px;
         font-weight: 600;
@@ -259,7 +262,7 @@
         border-radius:10px;
         height: 52px;
         position: fixed;
-        bottom: 340px;
+        bottom: 40px;
         left: 15px;
         border: 1.5px solid #029dd1;
         transition: all 0.3s ease;
