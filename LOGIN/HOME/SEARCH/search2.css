@@ -97,7 +97,7 @@ margin: 0;
   }
   .box{
     position: relative;
-    top: 80px;
+    top: 60px;
     display: flex;
     border: 1px solid black;
     width: 90%;
@@ -116,7 +116,7 @@ margin: 0;
   }
   .next .text{
     position: relative;
-    top: 115px;
+    top: 90px;
     margin-left: 25px;
     font-size: 20px;
     font-weight:600;
@@ -131,14 +131,14 @@ margin: 0;
   }
   .voice{
     position: relative;
-    top: 80px;
+    top: 65px;
     text-align: center;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
   }
   .top{
    position: relative;
-   top: 250px;
+   top: 200px;
    margin-left: 25px;
    font-family: 'Roboto', sans-serif;
    font-size: 13px;
@@ -147,7 +147,7 @@ margin: 0;
   
   .searches{
     position: relative;
-    top: 260px;
+    top: 220px;
     display: flex;
     margin-left: 25px;
     gap: 25px;
@@ -160,10 +160,11 @@ margin: 0;
    .searches p span{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    font-weight:200;
    }
   .searches2{
     position: relative;
-    top: 300px;
+    top: 270px;
     display: flex;
     margin-left: 25px;
     gap: 25px;
@@ -176,16 +177,15 @@ margin: 0;
    .searches2 p span{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    font-weight: 200;
    }
   .post{
     position: relative;
-    top: 280px;
+    top: 250px;
     margin-left: 25px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
   }
-
-  
   .icon-content .jaden{
     position: relative;
     top: 30px;
@@ -196,10 +196,10 @@ margin: 0;
     width: 20%;
    } 
    .icon-content{
-    border: 1px solid black;
+    border: 1px solid rgb(150, 146, 146);
     height: 70px;
     position: relative;
-    margin-top: 380px;
+    margin-top: 320px;
     background:white;
     border-bottom: none;
    }

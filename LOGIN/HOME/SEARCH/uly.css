@@ -1,229 +1,236 @@
 @media (max-width: 580px) {
-    body {
-        background: white;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-      }
-      .max-width {
-    max-width: 1340px;
-    padding:0;
-    margin: 0;
-    
-      }
-      section {
-        padding: 20px 0;
-      }
-      .navbar {
-        position: fixed;
-        width: 100%;
-        z-index: 999;
-        padding: 15px 0;
-        transition: all 0.5s ease;
-        font-family: 'Rubik', sans-serif;
-        display: flex;
-        justify-content: space-between;
-      }
-      .navbar.sticky {
-        padding: 30px 0;
-        background:black;
-      }
-      .navbar .logo a {
-        position: relative;
-        left:80px ;
-        font-size: 30px;
-        font-weight: 600;
-        color: black;
-        transition: color 0.5s ease;
-        font-family: 'Rubik', sans-serif;
-      }
-      
-      .navbar .max-width {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      
-      .navbar .menu li {
-        position: relative;
-        right: 5px;
-        list-style: none;
-        display: inline-block;
-      }
-      .navbar .menu .date li a {
-        color: black;
-        font-size: 15px;
-        font-weight: 600;
-        margin-right: 25px;
-        padding-left: 20px;
-        transition: color 0.3s ease;
-        font-family: 'Rubik', sans-serif;
-      }
-      .navbar .menu .date li a i{
-        color: black;
-      position: relative;
-      right:38px;
-      top: 3px;
-      font-size: 18px;
-      }
-      .navbar .menu .oth li a {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left:320px;
-        bottom: 20px;
-        font-weight: 700;
-        transition: color 0.3s ease;
-        font-family: 'Rubik', sans-serif;
-      }
-      .navbar .menu .oth li a i{
-        color: black;
-        display: flex;
-        font-size: 15px;
-        margin: 3px;
-        font-weight: 800;
-        justify-content: space-between;
-      }
-    
-      .navbar .menu li a:hover,
-      .navbar .logo a:hover {
-        color:#029dd1;
-      }
-      .menu-btn {
-        color: #fff;
-        font-size: 23px;
-        cursor: pointer;
-        display: none;
-      }
-      .home .home-content .ezi{
-        position: relative;
-        text-align: center;
-        top:50px;
-        font-size: 16px;
-        font-weight: 700;
-      }
-      .home .home-content .iconss{
-        position: relative;
-        top: 30px;
-        color: black;
-      }
-      .home .home-content .iconss a{
-        position: relative;
-        margin-left: 20px;
-        color: black;
-        cursor: pointer;
-          }
-          .home .home-content .iconss  i{
-            font-size: 18px;
-            font-weight: 700;
-          }
-      .dome .dome-content{
-        width: 100%;
-      }
-      .dome .dome-content .fantasma img{
-        width: 100%;
-      }
-      .dome .dome-content .lover img{
-        position: relative;
-        left: 100px;
-        bottom: 390px;
-        width: 200px;
-      }
-      .dome .dome-content .lover .pol{
-        position: relative;
-        bottom: 380px;
-        text-align: center;
-        margin-top: 15px;
-        font-weight: 600;
-        font-size: 18px;
-        font-family: arial;
-      }
-      .dome .dome-content .lover .pel{
-        margin-top: 8px;
-        font-family: arial;
-        font-size: 16px;
-        font-weight:400;
-        position: relative;
-        bottom: 380px;
-        text-align: center;
-      }
-      .dome .dome-content .box{
-        display:block;
-        background: rgb(252, 252, 252);
-        width:100%;
-        padding: 25px;
-       border: 1px solid black;
-       border-right: none;
-       border-left: none;
-        position: relative;
-        bottom: 350px;
-        height: fit-content;
-      }
-      .dome .dome-content .box ul{
-        justify-content: space-between;
-        display: flex;
-        width: 100%;
-        list-style: none;
-        flex-wrap: nowrap;
-      }
-      .dome .dome-content .box ul li h4{
-        text-align: center;
-        margin-bottom: 4px;
-        font-size: 20px;
-        font-family: arial;
-      }
-      .dome .dome-content .box ul li won{
-        font-family: Arial;
-        margin-top: 5px;
-        font-size: 13px;
-      }
-      .get .get-content{
-        width: 100%;
-      }
-      .get .get-content .syn{
-        position: relative;
-        bottom: 370px;
-      }
-      .get .get-content .syn .tite{
-        font-size: 18px;
-        margin-bottom: 10px;
-        font-family: arial;
-        position: relative;
-        left: 5px;
-        font-weight: 550;
-      }
-      .get .get-content .syn .body{
-        font-size: 18px;
-        font-family: arial;
-        width: 100%;
-        position: relative;
-        left: 5px;
-        font-weight: 500;
-      }
-      .img a{
-        display: inline-flex;
-        justify-content:center;
-        text-align: center;
-        margin-inline: 20px;
-        align-items: center;
-        background:transparent;
-        color:#029dd1;
-        font-size: 16px;
-        padding: 20px 30px;
-        border-radius:10px;
-        height: 50px;
-        position: relative;
-        bottom: 340px;
-        right: 10px;
-        border: 1.5px solid #029dd1;
-        transition: all 0.3s ease;
-        font-family: Arial;
-      }
-      .img a:hover{
-        background:#029dd1;
-        color:white;
-      }
+  body {
+      background: white;
     }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+    .max-width {
+  max-width: 1340px;
+  padding:0;
+  margin: 0;
+  
+    }
+    section {
+      padding: 20px 0;
+    }
+    .navbar {
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      padding: 15px 0;
+      transition: all 0.5s ease;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navbar.sticky {
+      padding: 30px 0;
+      background:black;
+    }
+    .navbar .logo a {
+      position: relative;
+      left:80px ;
+      font-size: 30px;
+      font-weight: 600;
+      color: black;
+      transition: color 0.5s ease;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .navbar .max-width {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .navbar .menu li {
+      position: relative;
+      right: 5px;
+      list-style: none;
+      display: inline-block;
+    }
+    .navbar .menu .date li a {
+      color: black;
+      font-size: 15px;
+      font-weight: 600;
+      margin-right: 25px;
+      padding-left: 20px;
+      transition: color 0.3s ease;
+      font-family: 'Roboto', sans-serif;
+    }
+    .navbar .menu .date li a i{
+      color: black;
+    position: relative;
+    right:38px;
+    top: 3px;
+    font-size: 18px;
+    }
+    .navbar .menu .oth li a {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left:320px;
+      bottom: 20px;
+      font-weight: 700;
+      transition: color 0.3s ease;
+      font-family: 'Roboto', sans-serif;
+    }
+    .navbar .menu .oth li a i{
+      color: black;
+      display: flex;
+      font-size: 15px;
+      margin: 3px;
+      font-weight: 800;
+      justify-content: space-between;
+    }
+  
+    .navbar .menu li a:hover,
+    .navbar .logo a:hover {
+      color:#029dd1;
+    }
+    .menu-btn {
+      color: #fff;
+      font-size: 23px;
+      cursor: pointer;
+      display: none;
+    }
+    .home .home-content .ezi{
+      position: relative;
+      text-align: center;
+      top:50px;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Roboto', sans-serif;
+    }
+    .home .home-content .iconss{
+      position: relative;
+      top: 30px;
+      color: black;
+    }
+    .home .home-content .iconss a{
+      position: relative;
+      margin-left: 20px;
+      color: black;
+      cursor: pointer;
+        }
+        .home .home-content .iconss  i{
+          font-size: 18px;
+          font-weight: 700;
+        }
+    .dome .dome-content{
+      width: 100%;
+    }
+    .dome .dome-content .fantasma img{
+      width: 100%;
+      height: 650px;
+      object-fit: cover;
+      top: 0;
+      position:fixed;
+    }
+    .dome .dome-content .lover img{
+      position: relative;
+    left: 80px;
+    width: 60%;
+    top: 40px;
+    }
+    .dome .dome-content .lover .pol{ 
+      position: relative;
+      text-align: center;
+      margin-top: 15px;
+      font-weight: 700;
+      top:38px;
+      font-size:20px;
+      font-family: 'Roboto', sans-serif;
+    }
+    .dome .dome-content .lover .pel{
+      margin-top: 8px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-weight:400;
+      top: 37px;
+      position: relative;
+      text-align: center;
+    }
+   .dome .dome-content .box{
+      display:block;
+      background: rgb(252, 252, 252);
+    width:100%;
+      padding: 25px;
+     border: 1px solid rgb(201, 199, 199);
+     border-right: none;
+     border-left: none;
+      position: relative;
+      top: 60px;
+      height: fit-content;
+    }
+    .dome .dome-content .box ul{
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      list-style: none;
+      flex-wrap: nowrap;
+    }
+    .dome .dome-content .box ul li h4{
+      text-align: center;
+      margin-bottom: 4px;
+      font-size: 20px;
+      font-family: arial;
+    }
+    .dome .dome-content .box ul li won{
+      font-family: Arial;
+      margin-top: 5px;
+      font-size: 13px;
+    }
+     .get .get-content{
+      width: 100%;
+    }
+    .get .get-content .syn{
+      position: relative;
+     top: 50px;
+    }
+    .get .get-content .syn .tite{
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-family: arial;
+      position: relative;
+      left: 5px;
+      font-weight: 550;
+    }
+    .get .get-content .syn .body{
+      font-size: 17px;
+      font-family: arial;
+      width: 100%;
+      position: relative;
+      left:5px;
+      text-align: left;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
+    }
+    .img a{
+      display: inline-flex;
+      justify-content:center;
+      text-align: center;
+      margin-inline: 20px;
+      align-items: center;
+      background:transparent;
+      color:#029dd1;
+      font-size: 16px;
+      padding: 20px 30px;
+      border-radius:10px;
+      height: 50px;
+      position: relative;
+      right: 10px;
+      top: 80px;
+      border: 1.5px solid #029dd1;
+      transition: all 0.3s ease;
+      font-family: Arial;
+    }
+    .img a:hover{
+      background:#029dd1;
+      color:white;
+    }
+  }

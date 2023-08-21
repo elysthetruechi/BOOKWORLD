@@ -98,7 +98,7 @@ margin: 0;
   }
   .box{
     position: relative;
-    top: 80px;
+    top: 60px;
     display: flex;
     border: 1px solid black;
     width: 90%;
@@ -117,7 +117,7 @@ margin: 0;
   }
   .next .text{
     position: relative;
-    top: 115px;
+    top: 90px;
     margin-left: 25px;
     font-size: 20px;
     font-weight:600;
@@ -132,7 +132,7 @@ margin: 0;
   }
   .voice{
     position: relative;
-    top: 80px;
+    top: 65px;
     text-align: center;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
@@ -147,7 +147,7 @@ margin: 0;
    }
    .searches{
     position: relative;
-    top: 220px;
+    top: 230px;
     display: flex;
     margin-left: 25px;
     gap: 25px;
@@ -160,6 +160,7 @@ margin: 0;
    .searches p span{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    font-weight: 200;
    }
   .post{
     position: relative;
