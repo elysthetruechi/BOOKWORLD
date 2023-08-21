@@ -103,6 +103,7 @@ margin: 0;
     top:50px;
     font-size: 16px;
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
   }
   .home .home-content .iconss{
     position: relative;
@@ -128,7 +129,7 @@ margin: 0;
       .middle text{
         top: 70px;
         font-size: 16px;
-        font-family: Arial;
+        font-family: 'Roboto', sans-serif;
       }
       .shake .shake-content{
         display:block;
@@ -141,7 +142,7 @@ margin: 0;
         display:block;
         position: relative;
         border: none;
-        border-bottom: .5px solid rgb(10, 4, 4);
+        border-bottom: .5px solid rgb(143, 137, 137);
         height: 120px;
       }
       .shake .shake-content .box{
@@ -156,12 +157,15 @@ margin: 0;
         left: 10px;
         font-weight: 700;
         width: 100%;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
       }
       .shake .shake-content .mrm span{
         font-weight: 500;
         position: relative;
         top: 5px;
         font-size: 12px;
+        font-family: 'Roboto', sans-serif;
       }  
       .shake .shake-content .box img{
         position: relative;
@@ -172,14 +176,14 @@ margin: 0;
         font-weight: 500;
         position: relative;
         font-size: 20px;
-        left: 100px;
+        left: 70px;
         bottom: 10px;
       }  
       .shake .shake-content .mrm .lone i{
         font-weight: 500;
         position: relative;
         font-size: 20px;
-        left: 290px;
+        left: 280px;
         bottom: 10px;
       }
     }

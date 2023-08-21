@@ -100,17 +100,19 @@
       display: none;
     }
     .home .home-content .logo img{
-      width: 15%;
+    left: 20px;
       position: relative;
       top: 30px;
     }
     .home .home-content .logo a{
-      font-size: 20px;
+      font-size: 18px;
       color: #000;
       font-family: arial;
       position: relative;
       top: 20px;
       font-weight: 600;
+      left: 20px;
+      font-family: 'Roboto', sans-serif;
     }
     .home .home-content .logo span{
       position: relative;
@@ -125,7 +127,7 @@
       top: 50px;
       font-size: 18px;
       margin-left: 30px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-weight: 550;
     }
    .home .home-content .fitz img{
@@ -135,6 +137,7 @@
     }
     .home .home-content .fitz{
       text-align: center;
+      font-family: 'Roboto', sans-serif;
     }
     .home .home-content .fitz .pol{
       position: relative;
@@ -147,13 +150,15 @@
       top: 100px;
       font-size: 15px;
       font-weight: 600;
+      font-family: 'Roboto', sans-serif;
     }
     .best .best-content .text{
       position: relative;
       top: 100px;
       font-size: 18px;
       font-family: arial;
-      font-weight: 550;
+      font-weight: 600;
+      font-family: 'Roboto', sans-serif;
     }
     .best .best-content .books{
       position: relative;
@@ -172,11 +177,13 @@
     }
     .best .best-content .books .will h{
     font-size: 13px;
-    font-weight: 550;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
     }
     .best .best-content .books .will p{
       font-size: 10px;
       font-weight: 550;
+      font-family: 'Roboto', sans-serif;
       }
       .bost .bost-content .text{
         position: relative;
@@ -184,6 +191,7 @@
         font-size: 18px;
         font-family: arial;
         font-weight: 550;
+        font-family: 'Roboto', sans-serif;
       }
       .bost .bost-content .beeks{
         position: relative;
