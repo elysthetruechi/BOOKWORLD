@@ -132,10 +132,38 @@
   top: 70px;
   z-index: -100;
 }
+.fantasma p{ 
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 700;
+  top:60px;
+  font-size:20px;
+  font-family: 'Roboto', sans-serif;
+}
+.fantasma p span{
+  margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight:400;
+  position: relative;
+  text-align: center;
+}
+.fantasma d{
+  margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight:400;
+  font-weight:600;
+  top: 80px;
+  left: 10px;
+  position: relative;
+  text-align: center;
+}
 .next{
     width: 100%;
     border: 2px solid transparent;
-    margin-top: 180px;
+    margin-top: 100px;
     border-radius: 15px;
     background: white;
     padding-bottom: 50px;
@@ -152,6 +180,7 @@
 }
 .next .box p{
     width:100%;
+    line-height: 1.4em;
     position: relative;
     top: 35px;
 }
@@ -163,7 +192,7 @@
     position: relative;
     width: 90%;
     left: 17px;
-    top: 30px;
+    top: 40px;
     z-index:100;
     font-size: 18px;
     padding: 12px 20px;
