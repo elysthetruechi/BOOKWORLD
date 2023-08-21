@@ -130,20 +130,134 @@
         font-size: 15px;
     }
     .nutrition {  display: grid;
-        grid-template-columns: 0.5fr 0.5fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 4px 4px;
-        grid-template-areas:
+       grid-template-columns: 0.5fr 0.5fr;
+         grid-template-rows: 1fr 1fr;
+         gap: 4px 4px;
+         grid-template-areas:
           ". ."
           ". ."
           ". .";
           position: relative;
-          top: 80px;
+          top: 150px;
+          height: 100%;
       }
-      .nut2 img{
+      .nut{
+       margin-left: 20px;
+      }
+      .nut1{
         position: relative;
-        bottom: 170px;
-        left: 40px;
+        bottom: 75px;
       }
-      
+      .nut h5{
+        font-size: 17px;
+        color: black;
+        line-height: 1.4em;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut h5 p{
+        font-size: 16px;
+        color: black;
+        font-weight: 200;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut1 d{
+        font-size: 15px;
+        color: black;
+        font-weight: 200;
+        color: #029dd1;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut2 d{
+        font-size: 15px;
+        color: black;
+        font-weight: 200;
+        color: red;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut3 d{
+        font-size: 15px;
+        color: black;
+        font-weight: 200;
+        color: red;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut4 d{
+        font-size: 15px;
+        color: black;
+        font-weight: 200;
+        color: #029dd1;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut5 d{
+        font-size: 15px;
+        color: black;
+        font-weight: 200;
+        color: red;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut6 d{
+        font-size: 15px;
+        color: black;
+        font-weight: 200;
+        color: #029dd1;
+        font-family: 'Roboto', sans-serif;
+      }
+      .nut1 img{
+    width: 85%;
+      }
+      .nut3{
+        position: relative;
+        bottom: 30px;
+      }
+      .nut5{
+        position: relative;
+        top: 10px;
+      }
+      .nut6, .nut4{
+        position: relative;
+        top: 80px;
+      }
+      .nut6{
+        position: relative;
+        top: 100px;
+      }
+      .icon-content .jaden{
+        position: relative;
+        top: 30px;
+        display: flex;
+        float: left;
+        margin-inline: 10px;
+        height: 50px;
+        width: 20%;
+       } 
+       .icon-content{
+        border: 1px solid rgb(150, 146, 146);
+        height: 70px;
+        position: relative;
+        margin-top: 320px;
+        background:white;
+        border-bottom: none;
+       }
+      .icon-content .jaden a i{
+        font-size: 30px;
+        position:relative;
+        left: 25px;
+        bottom: 15px;
+        margin-inline: 5px;
+        color: black;
+    
+       }
+       .icon-content .jaden p{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        right: 10px;
+        font-size: 10px;
+       }
+       .icon .icon-content .jaden a i:hover{
+        color: #029dd1;
+       }
+       .icon .icon-content .jaden p:hover{
+        color: #029dd1;
+       }
 }
