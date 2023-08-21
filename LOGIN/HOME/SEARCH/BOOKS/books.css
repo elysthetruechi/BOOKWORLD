@@ -121,7 +121,6 @@
       color: #000;
     }
     .res{
-
         position: relative;
         top: 40px;
         margin-left: 20px;
@@ -130,4 +129,21 @@
         font-weight: 600;
         font-size: 15px;
     }
+    .nutrition {  display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 4px 4px;
+        grid-template-areas:
+          ". ."
+          ". ."
+          ". .";
+          position: relative;
+          top: 80px;
+      }
+      .nut2 img{
+        position: relative;
+        bottom: 170px;
+        left: 40px;
+      }
+      
 }
