@@ -1,6 +1,6 @@
 @media (max-width: 580px) {
     body {
-        background: white;
+        background: whitesmoke;
       }
       * {
         margin: 0;
@@ -131,7 +131,7 @@
       .post{
         position: relative;
         top: 200px;
-        left: 20px;
+        margin-left: 20px;
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
         font-weight: 600;
@@ -144,12 +144,18 @@
         padding: 20px 33px;
         width: 90%;
         margin-left: 15px;
-        background: whitesmoke;
+        background: white;
         border-radius: 15px;
       }
       .personal .box span a i{
         position: relative;
         left: 40%;
+        font-size: 14px;
+        color: black;
+      }
+      .personal .box span1 a i{
+        position: relative;
+        left: 52%;
         font-size: 14px;
         color: black;
       }
@@ -164,7 +170,7 @@
       .pest{
         position: relative;
         top: 250px;
-        left: 20px;
+        margin-left: 20px;
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
         font-weight: 600;
@@ -177,12 +183,18 @@
         padding: 20px 33px;
         width: 90%;
         margin-left: 15px;
-        background: whitesmoke;
+        background: white;
         border-radius: 15px;
       }
       .porsonal .bex span a i{
         position: relative;
         left: 44%;
+        font-size: 14px;
+        color: black;
+      }
+      .porsonal .bex span2 a i{
+        position: relative;
+        left: 52%;
         font-size: 14px;
         color: black;
       }
@@ -192,4 +204,49 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 600;
       }
+      .porsonal .bex p img{
+        position: relative;
+        left: 60%;
+        top: 4px;
+      }
+      .icon-content .jaden{
+        position: relative;
+        top: 30px;
+        display: flex;
+        float: left;
+        margin-inline: 10px;
+        height: 50px;
+        width: 20%;
+       } 
+       .icon-content{
+        border: 1px solid rgb(112, 110, 110);
+        height: 0px;
+        top:280px;
+        position: relative;
+        background:white;
+        border-bottom: none;
+       }
+      .icon-content .jaden a i{
+        font-size: 30px;
+        position:relative;
+        left: 25px;
+        bottom: 15px;
+        margin-inline: 5px;
+        color: black;
+    
+       }
+       .icon-content .jaden p{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        right: 10px;
+        font-size: 10px;
+       }
+       .icon .icon-content .jaden a i:hover{
+        color: #029dd1;
+       }
+       .icon .icon-content .jaden p:hover{
+        color: #029dd1;
+       }
+      
     }
