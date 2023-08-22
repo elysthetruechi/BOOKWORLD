@@ -1,0 +1,273 @@
+@media (max-width: 580px) {
+    body {
+        background: whitesmoke;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      .max-width {
+    max-width: 1340px;
+    padding:0;
+    margin: 0;
+    
+      }
+      section {
+        padding: 20px 0;
+      }
+      .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding: 15px 0;
+        transition: all 0.5s ease;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar.sticky {
+        padding: 30px 0;
+        background:black;
+      }
+      .navbar .logo a {
+        position: relative;
+        left:80px ;
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        transition: color 0.5s ease;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      .navbar .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .navbar .menu li {
+        position: relative;
+        right: 5px;
+        list-style: none;
+        display: inline-block;
+      }
+      .navbar .menu .date li a {
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 25px;
+        padding-left: 20px;
+        transition: color 0.3s ease;
+        font-family: 'Roboto', sans-serif;
+      }
+      .navbar .menu .date li a i{
+        color:white;
+      position: relative;
+      right:38px;
+      top: 3px;
+      font-size: 18px;
+      }
+      .navbar .menu .oth li a {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left:320px;
+        bottom: 20px;
+        font-weight: 700;
+        transition: color 0.3s ease;
+        font-family: 'Roboto', sans-serif;
+      }
+      .navbar .menu .oth li a i{
+        color:white;
+        display: flex;
+        font-size: 15px;
+        margin: 3px;
+        font-weight: 800;
+        justify-content: space-between;
+      }
+    
+      .navbar .menu li a:hover,
+      .navbar .logo a:hover {
+        color:#029dd1;
+      }
+      .menu-btn {
+        color: #fff;
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
+      }
+      .maker img{
+        position: fixed;
+        object-fit: cover;
+        width: 100%;
+      }
+      .maker .music img{
+        width: 43%;
+        position: relative;
+        left: 120px;
+        top: 130px;
+      }
+      form{
+        position: relative;
+        text-align: center;
+        top: 150px;
+        width: 100%;
+      }
+      .input-row{
+        display:block;
+        justify-content:space-between;
+        margin-bottom: 30px;
+        font-family: 'Rubik', sans-serif;
+      }
+      .input-row .input-group{
+        flex-basis: 45%;
+      }
+      input{
+        width: 90%;
+        font-size: 20px;
+        position: relative;
+        left: 10px;
+        outline:none;
+        text-align:left;
+        text-indent:20px;
+        border-radius: 9px;
+        border: 1px solid #000;
+        border-bottom: 2px solid black;
+        background:#FAFBFC;
+        margin-right:25px;
+        margin-top: 15px;
+        padding-bottom: 35px;
+        margin-bottom: 10px;
+      }
+      input::placeholder{
+        color:black;
+        font-family: arial;
+        position: relative;
+        top: 12px;
+        font-size: 18px;
+      }
+      .alt{
+        position: relative;
+        right: 320px;
+        justify-content: center;
+        top:100px;
+      
+      }
+      .alt a{
+        display: inline-block;
+        text-align: center;
+        background:#029dd1;
+        color: #fff;
+        width:80%;
+        position: relative;
+        z-index:100;
+        font-size: 14px;
+        padding: 12px 20px;
+        border-radius: 4px;
+        margin-top: 15px;
+        height: 38px;
+        border: 1.5px solid #029dd1;
+        transition: all 0.3s ease;
+        font-family: Arial;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+      }
+      textarea{
+        position: relative;
+        left: 10px;
+        width: 90%;
+        font-size: 15px;
+        outline:none;
+        text-align:left;
+        border-radius: 9px;
+        border: 1px solid black;
+        border-bottom: 2px solid black;
+        background:#FAFBFC;
+        margin-right:25px;
+        margin-top: 15px;
+        padding-bottom: 25px;
+        margin-bottom: 10px;
+      }
+      textarea::placeholder{
+        color:black;
+        font-family: arial;
+        position: relative;
+        top: 12px;
+        left: 15px;
+        font-size: 18px;
+        text-align:left;
+        width: 350px;
+        height: 100%;
+      }
+      .alt a{
+        display: inline-block;
+        text-align: center;
+        background:#029dd1;
+        color: #fff;
+        position: relative;
+        top:60px;
+        left: 335px;
+        width: 90%;
+        z-index:100;
+        font-size: 20px;
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 15px;
+        border: 1.5px solid #029dd1;
+        transition: all 0.3s ease;
+        font-family: Arial;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .alt a span{
+        position: relative;
+        bottom: 10px;
+    }
+    .input-group img{
+      font-family: arial;
+      position: relative;
+      bottom: 40px;
+      right: 100px;
+      font-size: 15px;
+      margin-inline: 3px;
+    }
+    .icon-content .jaden{
+        position: relative;
+        top: 30px;
+        display: flex;
+        float: left;
+        margin-inline: 10px;
+        height: 50px;
+        width: 20%;
+       } 
+       .icon-content{
+        border: 1px solid rgb(112, 110, 110);
+        height: 0px;
+        top:180px;
+        position: relative;
+        background:white;
+        border-bottom: none;
+       }
+      .icon-content .jaden a i{
+        font-size: 30px;
+        position:relative;
+        left: 25px;
+        bottom: 15px;
+        margin-inline: 5px;
+        color: black;
+    
+       }
+       .icon-content .jaden p{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        right: 10px;
+        font-size: 10px;
+       }
+       .icon .icon-content .jaden a i:hover{
+        color: #029dd1;
+       }
+       .icon .icon-content .jaden p:hover{
+        color: #029dd1;
+       }
+    }
