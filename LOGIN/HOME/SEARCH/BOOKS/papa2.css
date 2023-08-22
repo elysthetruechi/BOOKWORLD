@@ -189,14 +189,14 @@
         margin-top:2px;
         position: relative;
         bottom: 25px;
-        border-radius: 15px;
+        border-radius: 20px;
         background: white;
         padding-bottom: 50px;
         z-index: 100;
     }
     .next .box{
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         font-family:Arial, Helvetica, sans-serif;
     }
     .next .box img{
@@ -205,7 +205,6 @@
         top: 20px;
     }
     .next .box p{
-        width:100%;
         line-height: 1.4em;
         position: relative;
         top: 45px;
@@ -220,7 +219,7 @@
         left: 17px;
         top: 40px;
         z-index:100;
-        font-size: 18px;
+        font-size: 20px;
         padding: 12px 20px;
         border-radius: 10px;
         margin-top: 15px;
