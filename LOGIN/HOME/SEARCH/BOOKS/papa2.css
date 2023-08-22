@@ -1,7 +1,4 @@
 @media (max-width: 580px) {
-    body {
-        background: white;
-      }
       * {
         margin: 0;
         padding: 0;
@@ -126,23 +123,24 @@
       }
       .dome .dome-content .fantasma img{
         width: 100%;
-        height: 650px;
+        height: 620px;
         object-fit: cover;
         top: 0;
         position:fixed;
       }
       .dome .dome-content .lover img{
         position: relative;
-      left: 80px;
-      width: 60%;
-      top: 40px;
+      left: 100px;
+      width: 53%;
+      top: 20px;
+      z-index: -100;
       }
       .dome .dome-content .lover .pol{ 
         position: relative;
         text-align: center;
         margin-top: 15px;
         font-weight: 700;
-        top:38px;
+        top:30px;
         font-size:20px;
         font-family: 'Roboto', sans-serif;
       }
@@ -151,20 +149,20 @@
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
         font-weight:400;
-        top: 37px;
+        top: 30px;
         position: relative;
         text-align: center;
       }
      .dome .dome-content .box{
         display:block;
-        background: rgb(252, 252, 252);
+        background-color:transparent;
       width:100%;
         padding: 25px;
-       border: 1px solid rgb(201, 199, 199);
+       border: 1px solid transparent;
        border-right: none;
        border-left: none;
         position: relative;
-        top: 60px;
+        top: 30px;
         height: fit-content;
       }
       .dome .dome-content .box ul{
@@ -184,5 +182,52 @@
         font-family: Arial;
         margin-top: 5px;
         font-size: 13px;
+      }
+      .next{
+        width: 100%;
+        border: 2px solid transparent;
+        margin-top:2px;
+        position: relative;
+        bottom: 25px;
+        border-radius: 15px;
+        background: white;
+        padding-bottom: 50px;
+        z-index: 100;
+    }
+    .next .box{
+        text-align: center;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .next .box img{
+        width:25%;
+        position: relative;
+        top: 20px;
+    }
+    .next .box p{
+        width:100%;
+        line-height: 1.4em;
+        position: relative;
+        top: 45px;
+    }
+    .alt a{
+        display: inline-block;
+        text-align:center;
+        background:#029dd1;
+        color: #fff;
+        position: relative;
+        width: 90%;
+        left: 17px;
+        top: 40px;
+        z-index:100;
+        font-size: 18px;
+        padding: 12px 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+        height: 50px;
+        border: 1.5px solid #029dd1;
+        transition: all 0.3s ease;
+        font-family: Arial;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
       }
     }
