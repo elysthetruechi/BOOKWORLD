@@ -122,68 +122,34 @@ margin-left: 25px;
     font-size: 17px;
     width: 100%;
     margin-top: 20px;
-    line-height: 1.3em;
     color: rgb(2, 0, 0);
     font-family: 'Roboto', sans-serif;
   }
-  form{
+  .rebel{
     position: relative;
-    text-align: center;
-    top: 60px;
-    margin-left: 14px;
-    width: 100%;
+    top: 140px;
+    display: flex;
+    gap: 18px;
   }
-  .input-row{
-    margin-top: 30px;
-    display:block;
-    justify-content:space-between;
+  .rebel .box{
+    padding: 22px 25px;
+    border: 1px solid rgb(176, 171, 171);
+    border-radius: 10px;
+    position: relative;
+    left: 26px;
+    bottom: 40px;
+    background:rgb(246, 246, 246);
   }
-  .input-row .input-group{
-    flex-basis: 45%;
-  }
-  input{
-    width:90%;
-    font-size: 15px;
-    outline:none;
-    text-align:left;
-    text-indent:20px;
-    border-radius: 9px;
-    border: 2px solid #D8D9DB;
-    background:#FAFBFC;
-    margin-right:25px;
-    margin-top: 15px;
-    padding-bottom: 38px;
-    margin-bottom: 10px;
-  }
-  input::placeholder{
+  .rebel .box span{
+    font-size: 45px;
     font-family: 'Roboto', sans-serif;
-    color:#68717F;
-    position: relative;
-    top: 19px;
-    font-size: 17px;
+    font-weight: 600;
   }
-  .alt a{
-    display: inline-block;
-    text-align: center;
-    background:#029dd1;
-    color: #fff;
+  .gue a span{
     position: relative;
-    top:430px;
-    left: 17px;
-    width: 90%;
-    z-index:100;
-    padding: 28px 30px;
-    border-radius: 7px;
-    margin-top: 15px;
-    height: 38px;
-    border: 1.5px solid #029dd1;
-    transition: all 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  }
-  .alt a span{
-    position: relative;
-    bottom: 10px;
+    margin-left: 70%;
+    top: 120px;
     font-size: 18px;
-    margin-right:5px;
+    color:#029DD1;
     font-family: 'Roboto', sans-serif;
   }

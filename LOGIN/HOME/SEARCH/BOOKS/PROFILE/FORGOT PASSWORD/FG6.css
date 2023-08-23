@@ -122,14 +122,14 @@ margin-left: 25px;
     font-size: 17px;
     width: 100%;
     margin-top: 20px;
-    line-height: 1.3em;
+    line-height: 1.4em;
     color: rgb(2, 0, 0);
     font-family: 'Roboto', sans-serif;
   }
   form{
     position: relative;
     text-align: center;
-    top: 60px;
+    top: 90px;
     margin-left: 14px;
     width: 100%;
   }
@@ -147,8 +147,8 @@ margin-left: 25px;
     outline:none;
     text-align:left;
     text-indent:20px;
-    border-radius: 9px;
-    border: 2px solid #D8D9DB;
+    border-radius: 12px;
+    border: 1px solid #D8D9DB;
     background:#FAFBFC;
     margin-right:25px;
     margin-top: 15px;
@@ -162,13 +162,21 @@ margin-left: 25px;
     top: 19px;
     font-size: 17px;
   }
+  .input-group img{
+    font-family: arial;
+    position: relative;
+    bottom: 40px;
+    right: 100px;
+    margin-inline: 3px;
+    width: 9px;
+  }
   .alt a{
     display: inline-block;
     text-align: center;
     background:#029dd1;
     color: #fff;
     position: relative;
-    top:430px;
+    top:380px;
     left: 17px;
     width: 90%;
     z-index:100;
@@ -183,7 +191,7 @@ margin-left: 25px;
   .alt a span{
     position: relative;
     bottom: 10px;
-    font-size: 18px;
+    font-size: 20px;
     margin-right:5px;
     font-family: 'Roboto', sans-serif;
   }

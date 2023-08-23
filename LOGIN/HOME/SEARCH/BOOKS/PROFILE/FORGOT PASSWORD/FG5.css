@@ -121,15 +121,15 @@ margin-left: 25px;
   .home .home-content .hero p{
     font-size: 17px;
     width: 100%;
+    line-height: 1.4em;
     margin-top: 20px;
-    line-height: 1.3em;
     color: rgb(2, 0, 0);
     font-family: 'Roboto', sans-serif;
   }
   form{
     position: relative;
     text-align: center;
-    top: 60px;
+    top: 90px;
     margin-left: 14px;
     width: 100%;
   }
@@ -148,7 +148,7 @@ margin-left: 25px;
     text-align:left;
     text-indent:20px;
     border-radius: 9px;
-    border: 2px solid #D8D9DB;
+    border: 1px solid #D8D9DB;
     background:#FAFBFC;
     margin-right:25px;
     margin-top: 15px;
@@ -168,7 +168,7 @@ margin-left: 25px;
     background:#029dd1;
     color: #fff;
     position: relative;
-    top:430px;
+    top:400px;
     left: 17px;
     width: 90%;
     z-index:100;
@@ -183,7 +183,7 @@ margin-left: 25px;
   .alt a span{
     position: relative;
     bottom: 10px;
-    font-size: 18px;
+    font-size: 20px;
     margin-right:5px;
     font-family: 'Roboto', sans-serif;
   }
