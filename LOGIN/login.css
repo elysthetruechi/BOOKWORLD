@@ -99,7 +99,6 @@ margin: 0;
   .home {
     background-image:url('Rectangle\ 224.png');
     background-size: cover;
-    height:50vh;
     /*position: relative;*/
     width: 100%;
     display: flex;
@@ -220,14 +219,14 @@ margin: 0;
       /*justify-content: center;*/
       /*align-items: center;*/
       background-attachment: fixed;
-      min-height: 500px;
+      min-height: 200px;
       font-family: 'Rubik', sans-serif;
     }
   .frame img{
       background-size: cover;
       height:50vh;
       position: relative;
-      bottom: 60px;
+      bottom: 100px;
       /*position: relative;*/
       width:100%;
       object-fit: cover;
@@ -235,7 +234,7 @@ margin: 0;
       /*justify-content: center;*/
       /*align-items: center;*/
       background-attachment: fixed;
-      min-height: 500px;
+      min-height: 480px;
     }
     .middle{
       width: 100%;
