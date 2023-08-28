@@ -165,13 +165,7 @@ margin: 0;
     font-family: Arial;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
-  .alt{
-    align-items: center;
-    text-align: center;
-    position: relative;
-    top:40px;
-    color: #029dd1;
-  }
+  
   .alt a{
     color: #029dd1;
   }
@@ -212,7 +206,7 @@ margin: 0;
     .home {
       background-image:url('Rectangle\ 224.png');
       background-size: cover;
-      height:50vh;
+      height:372px;
       /*position: relative;*/
       width: 100%;
       display: flex;
@@ -241,25 +235,26 @@ margin: 0;
      position: relative;
     }
    .middle img{
-      width: 40%;
+      width:118.14px;
+      height: 120px;
       position: relative;
       left: 5px;
-      bottom: 150px;
+      bottom: 230px;
     }
     .middle h3{
       font-size: 28px;
       position: relative;
       text-align: center;
-      bottom:145px;
+      bottom:220px;
     }
     .middle h5{
       text-align: center;
       width: 100%;
-      left: 10px;
-      font-size: 18px;
+      left: 0px;
+      font-size: 16px;
       font-weight: 100;
       position: relative;
-      bottom:90px;
+      bottom:190px;
     }
     .middle a{
       display: inline-block;
@@ -267,28 +262,28 @@ margin: 0;
       background:#029dd1;
       color: #fff;
       position: relative;
-      top:0%;
-      width: 100%;
+      bottom: 150px;
+      right:10px;
+      height: 49px;
+      width:335px;
       z-index:100;
       font-size: 14px;
       padding: 12px 20px;
-      border-radius: 4px;
+      border-radius: 10px;
       margin-top: 15px;
-      height: 38px;
       border: 1.5px solid #029dd1;
       transition: all 0.3s ease;
       font-family: Arial;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     }
     .alt{
+      align-items: center;
+      text-align: center;
       position: relative;
-      top:40px;
-      color: #029dd1;
-      font-size: 12px;
-    }
-    .alt a{
+      bottom:120px;
       color: #029dd1;
     }
+    
     .alt a:hover{
     text-decoration: underline blue 2px;
     }
