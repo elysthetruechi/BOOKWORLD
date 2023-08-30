@@ -184,7 +184,7 @@ margin: 0;
     margin:50px auto;
     font-family: 'Rubik', sans-serif;
   }
-  @media (max-width: 580px) {
+  @media (max-width: 480px) {
     .navbar .menu .oth li a {
       display: flex;
       flex-direction: column;
