@@ -1,3 +1,4 @@
+@media (max-width: 480px) {
 body {
     background: white;
     width: 100%;
@@ -222,4 +223,5 @@ margin: 0;
    .icon .icon-content .jaden p:hover{
     color: #029dd1;
    }
+  }
   

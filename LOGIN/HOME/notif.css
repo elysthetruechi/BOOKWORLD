@@ -1,3 +1,4 @@
+@media (max-width: 480px) {
 body {
     background: white;
   }
@@ -135,3 +136,4 @@ margin: 0;
       .middle img{
         width: 90%;
       }
+    }

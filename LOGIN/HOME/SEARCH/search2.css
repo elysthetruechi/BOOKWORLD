@@ -1,3 +1,4 @@
+@media (max-width: 480px) {
 body {
     background:url(Rectangle\ 16.png);
   }
@@ -225,5 +226,6 @@ margin: 0;
    .icon .icon-content .jaden p:hover{
     color: #029dd1;
    }
+  }
 
  
