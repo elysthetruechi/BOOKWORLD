@@ -205,7 +205,7 @@ transition: all 0.3s ease;
   .next-btn.active{
     background-color: #029dd1;
   }
-  @media (max-width: 580px) {
+  @media (max-width: 480px) {
     * {
       margin: 0;
       padding: 0;

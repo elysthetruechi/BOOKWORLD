@@ -152,7 +152,7 @@ margin: 0;
         color: #029dd1;
         font-family: Arial;
       }
-      @media (max-width: 580px) {
+      @media (max-width: 480px) {
         .navbar .menu .oth li a {
           display: flex;
           flex-direction: column;

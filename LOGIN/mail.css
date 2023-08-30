@@ -220,7 +220,7 @@ margin: 0;
     font-family: Arial;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
-  @media (max-width: 580px) {
+  @media (max-width: 480px) {
     .navbar .menu .oth li a {
       display: flex;
       flex-direction: column;

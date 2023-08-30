@@ -203,7 +203,7 @@ margin-left: 20px;
     margin-top: 10px;
     font-size: 14px;
   }
-  @media (max-width: 580px) {
+  @media (max-width: 480px) {
     .navbar .menu .oth li a {
       display: flex;
       flex-direction: column;
