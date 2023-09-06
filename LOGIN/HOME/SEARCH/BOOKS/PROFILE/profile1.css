@@ -214,7 +214,7 @@
         top: 30px;
         display: flex;
         float: left;
-        margin-inline: 10px;
+        margin-inline: 8px;
         height: 50px;
         width: 20%;
        } 
@@ -240,7 +240,7 @@
         top: 25px;
         text-align: center;
         right: 10px;
-        font-size: 10px;
+        font-size: 9px;
        }
        .icon .icon-content .jaden a i:hover{
         color: #029dd1;

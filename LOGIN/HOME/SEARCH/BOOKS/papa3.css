@@ -126,7 +126,7 @@
       }
       .dome .dome-content .fantasma img{
         width: 100%;
-        height: 650px;
+        height: 550px;
         object-fit: cover;
         top: 0;
         position:fixed;
@@ -142,7 +142,7 @@
         text-align: center;
         margin-top: 15px;
         font-weight: 700;
-        top:38px;
+        top:30px;
         font-size:20px;
         font-family: 'Roboto', sans-serif;
       }
@@ -151,7 +151,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
         font-weight:400;
-        top: 37px;
+        top: 30px;
         position: relative;
         text-align: center;
       }
@@ -159,12 +159,12 @@
         display:block;
         background: rgb(252, 252, 252);
       width:100%;
-        padding: 25px;
+        padding: 23px;
        border: 1px solid rgb(201, 199, 199);
        border-right: none;
        border-left: none;
         position: relative;
-        top: 60px;
+        top: 45px;
         height: fit-content;
       }
       .dome .dome-content .box ul{
@@ -194,19 +194,20 @@
       }
       .get .get-content .syn .tite{
         font-size: 18px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         font-family: arial;
         position: relative;
         left: 5px;
         font-weight: 550;
       }
       .get .get-content .syn .body{
-        font-size: 17px;
+        font-size: 16.4px;
         font-family: arial;
         width: 100%;
         position: relative;
         left:5px;
-        text-align: left;
+        margin-bottom: 60px;
+        text-align:justify;
         font-weight: 500;
         font-family: 'Roboto', sans-serif;
       }
@@ -224,7 +225,8 @@
         height: 50px;
         position: relative;
         right:0px;
-        top: 80px;
+        top: 20px;
+        margin-bottom: 30px;
         border: 1.5px solid #029dd1;
         transition: all 0.3s ease;
         font-family: Arial;
