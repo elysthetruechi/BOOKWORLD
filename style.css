@@ -93,9 +93,6 @@ section {
   background: white;
   padding: 50px 5vw;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .home .carousel .card .logo a {
@@ -124,7 +121,6 @@ section {
   font-size: clamp(1rem, 2vw, 1.2rem);
   font-family: Arial, sans-serif;
   margin-top: 15px;
-  max-width: 90%;
 }
 
 .home .carousel .card .hero img {
@@ -132,7 +128,7 @@ section {
   max-width: 450px;
   height: auto;
   object-fit: cover;
-  margin: 20px 0;
+  margin: 0 auto;
 }
 
 /* Carousel Box */
@@ -141,7 +137,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 /* Owl Dots */
@@ -208,41 +203,22 @@ section {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar .menu {
-    width: 100%;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .home .carousel .card {
-    padding: 30px 4vw;
-  }
-
   .home .carousel .card .hero img {
     max-width: 100%;
   }
 }
 
 @media (max-width: 480px) {
-  .navbar {
-    padding: 10px 4vw;
-  }
-
   .home .carousel .card {
-    padding: 20px;
+    padding: 30px 20px;
   }
 
   .home .carousel .card .logo a {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .home .carousel .card .logo img {
-    width: 40px;
+    width: 45px;
   }
 
   .home .carousel .card .under h2,
@@ -252,10 +228,5 @@ section {
 
   .home .next-btn a {
     width: 100%;
-    text-align: center;
-  }
-
-  .menu-btn {
-    font-size: 28px;
   }
 }
